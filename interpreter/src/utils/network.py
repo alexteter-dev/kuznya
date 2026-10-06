@@ -2,6 +2,7 @@ import asyncio
 import queue
 import threading
 import traceback
+from http import HTTPStatus
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 from websockets.asyncio.server import serve
@@ -126,13 +127,29 @@ def run_async_loop():
 def start_http_server():
     import main
     print(f'[СЕРВЕР] Запуск http-сервера, на порту: {main.world.port_web}')
+    address = 'localhost' if main.world.host in ('0.0.0.0', '') else main.world.host
+    print(f'[СЕРВЕР] Играть: откройте в браузере http://{address}:{main.world.port_web}')
     httpd = HTTPServer((main.world.host, main.world.port_web), WebsocketClientServer)
     httpd.serve_forever()
 
 
+def redirect_browser(connection, request):
+    """Порт веб-сокета открыли в браузере как обычную страницу: отправляем на веб-клиент."""
+    import main
+    if request.headers.get('Upgrade', '').lower() == 'websocket':
+        return None
+    host = request.headers.get('Host', 'localhost').rsplit(':', 1)[0]
+    address = f'http://{host}:{main.world.port_web}'
+    response = connection.respond(
+        HTTPStatus.FOUND, f'Это порт веб-сокета. Веб-клиент игры: {address}\n')
+    response.headers['Location'] = address
+    return response
+
+
 async def start_websocket_server():
     import main
-    async with serve(handle_connection, main.world.host, main.world.port_wss) as server:
+    async with serve(handle_connection, main.world.host, main.world.port_wss,
+                     process_request=redirect_browser) as server:
         print(f"[СЕРВЕР] Запуск веб-сокет сервера на ws://{main.world.host}:{main.world.port_wss}")
         await server.serve_forever()
 
