@@ -41,3 +41,16 @@ def do_script_on_when_connected_to_user():
 def on_message(message):
     self.send(f'Получено: {message}')
 ```
+
+## Библиотеки
+```python
+# любой скрипт можно подключить по имени: его код выполнится один раз, self в нем равен None
+tools = world.require('Инструменты')
+
+@self.on_event('on_message')
+def on_message(message):
+    self.send(tools.shout(message))
+```
+
+## ИИ-агенты и ассеты
+См. [AGENTS.md](AGENTS.md).

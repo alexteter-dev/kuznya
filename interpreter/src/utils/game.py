@@ -3,6 +3,7 @@
 """
 
 import builtins
+import copy
 import gzip
 import json
 # -- импорт библиотек
@@ -10,6 +11,7 @@ import pathlib
 import re
 import secrets
 import time
+import traceback
 from pathlib import Path
 
 
@@ -57,13 +59,14 @@ class Object:
         return self
 
     def load_from_prefab(self, prefab):
-        self.scripts = prefab.scripts
+        self.scripts = list(prefab.scripts)
         self.children = []
+        # атрибуты копируются, иначе все экземпляры делили бы один словарь с шаблоном
+        self.attributes = copy.deepcopy(prefab.attributes)
         for child_prefab in prefab.children:
             child = child_prefab.instance()
             child.parent = self
             self.children.append(child)
-        self.attributes = prefab.attributes
         self.compile_scripts()
         return self
 
@@ -74,6 +77,9 @@ class Object:
     def transfer_user_connection_to(self, object):
         self.trigger('on_disconnect')
         object.connection = self.connection
+        if object.connection is not None:
+            # сообщения игрока теперь должны приходить новому объекту
+            object.connection.connected_object = object
         self.connection = None
         object.trigger('on_connect')
 
@@ -112,6 +118,10 @@ class Object:
                 return self.identity
         else:
             return self.identity
+
+    @property
+    def name(self):
+        return self.get_name()
 
     def safe(self, string):
         return string.replace('<', '&lt;').replace('>', '&gt;')
@@ -164,7 +174,7 @@ class Object:
                 if child.name == name:
                     return child
                 else:
-                    found = child.find_child(name, identity)
+                    found = child.find_child(name=name)
                     if found:
                         return found
         else:
@@ -172,7 +182,7 @@ class Object:
                 if child.identity == identity:
                     return child
                 else:
-                    found = child.find_child(name, identity)
+                    found = child.find_child(identity=identity)
                     if found:
                         return found
         return None
@@ -213,6 +223,15 @@ class Object:
 
 
 class Prefab(Object):
+    def load(self, saved, world):
+        self.identity = saved['identity']
+        self.world = world
+        self.scripts = [world.do_get_script_by_identity(i) for i in saved['scripts']]
+        # дочерние узлы шаблона - тоже шаблоны, иначе у них нет instance()
+        self.children = [Prefab(world=world, parent=self).load(child, world) for child in saved['children']]
+        self.attributes = saved['attributes']
+        return self
+
     def instance(self):
         object = Object(world=self.world).load_from_prefab(self)
         object.trigger('on_spawn')
@@ -260,7 +279,25 @@ class Script:
         }
         self.namespaces[object.identity] = namespace
 
-        exec(self.code, namespace, namespace)
+        exec(builtins.compile(self.code, f'<{self.name}>', 'exec'), namespace, namespace)
+
+
+class ScriptModule:
+    """Пространство имен скрипта-библиотеки, см. World.require"""
+
+    def __init__(self, name, namespace):
+        object.__setattr__(self, '_name', name)
+        object.__setattr__(self, '_namespace', namespace)
+
+    def __getattr__(self, name):
+        try:
+            return self._namespace[name]
+        except KeyError:
+            raise AttributeError(f"Модуль '{self._name}' не содержит '{name}'") from None
+
+    def __setattr__(self, name, value):
+        self._namespace[name] = value
+
 
 class ScriptProxy:
     def __init__(self, script, obj):
@@ -288,6 +325,8 @@ class World:
         self.web_client_code = ''
 
         # -- атрибуты, относящиеся только к игре
+        self.host = 'localhost'
+        self.modules = {}
         self.started = False
         self.scheduled = []
         self.last_tick_time = time.time()
@@ -310,6 +349,7 @@ class World:
         self.filename = filename
         self.connection_prefab_identity = self._data['connection_prefab_identity']
         self.web_client_code = self._data['server']['web_client_code']
+        self.host = self._data['server'].get('host', 'localhost')
 
         return self
 
@@ -335,12 +375,16 @@ class World:
             'server': {
                 'port_wss': self.port_wss,
                 'port_web': self.port_web,
-                'web_client_code': self.web_client_code
+                'web_client_code': self.web_client_code,
+                'host': self.host
             },
         }
 
-        with gzip.open(filename, 'wt', encoding='UTF-8', compresslevel=9) as file:
+        # сначала во временный файл: ошибка сериализации не должна портить мир
+        temporary = Path(str(filename) + '.tmp')
+        with gzip.open(temporary, 'wt', encoding='UTF-8', compresslevel=6) as file:
             json.dump(self._data, file)
+        temporary.replace(filename)
 
     # - быстрые макросы
     def do_new_script(self):
@@ -375,13 +419,44 @@ class World:
         return self.find_in_children(self.root_object, identity)
 
     def do_get_object_by_name(self, name):
-        return self.find_in_children(self.root_object, name)
+        return self.find_in_children_by_name(self.root_object, name)
+
+    get_object_by_name = do_get_object_by_name
+
+    def do_get_script_by_name(self, name):
+        for script in self.scripts:
+            if script.name == name:
+                return script
+
+    def require(self, name):
+        """Подключение скрипта как библиотеки: код выполняется один раз, без self."""
+        if name in self.modules:
+            return self.modules[name]
+        script = self.do_get_script_by_name(name)
+        if script is None:
+            raise ImportError(f"Скрипт '{name}' не найден")
+        namespace = {
+            'self': None,
+            '__builtins__': builtins,
+            '__name__': name,
+            'world': self,
+            'script': script
+        }
+        # модуль регистрируется до выполнения, чтобы работали циклические require
+        module = ScriptModule(name, namespace)
+        self.modules[name] = module
+        try:
+            exec(builtins.compile(script.code, f'<{name}>', 'exec'), namespace, namespace)
+        except Exception:
+            del self.modules[name]
+            raise
+        return module
 
     def find_in_children_by_name(self, object, name):
         if 'name' in object.attributes and object.attributes['name'] == name:
             return object
         for child in object.children:
-            found = self.find_in_children(child, name)
+            found = self.find_in_children_by_name(child, name)
             if found is not None:
                 return found
         return None
@@ -422,17 +497,19 @@ class World:
 
     def on_schedule(self, time, *args, **kwargs):
         def decorator(func):
-            self.scheduled.append([time, func, args, kwargs])
+            self.scheduled.append([time, func, args, kwargs, None])
             return func
 
         return decorator
 
     def schedule(self, func, time, *args, **kwargs):
-        self.scheduled.append([time, func, args, kwargs])
+        task = [time, func, args, kwargs, None]
+        self.scheduled.append(task)
+        return task
 
     def trigger(self, event, *args, **kwargs):
         if event in self.listeners:
-            for listener in self.listeners[event]:
+            for listener in list(self.listeners[event]):
                 listener.__call__(*args, **kwargs)
 
     def on_event(self, event_type):
@@ -457,8 +534,11 @@ class World:
             if isinstance(owner, Object) and not owner.alive:
                 if task in self.scheduled: self.scheduled.remove(task)
                 continue
+            if task in self.scheduled: self.scheduled.remove(task)
+            if isinstance(owner, Object) and task in owner._pending_tasks:
+                owner._pending_tasks.remove(task)
             try:
                 func(*args, **kwargs)
             except Exception as e:
                 print(f"[script error] {e}")
-            if task in self.scheduled: self.scheduled.remove(task)
+                traceback.print_exc()

@@ -37,13 +37,15 @@ class ObjectFile:
     def load(self, saved, world):
         self.identity = saved['identity']
         self.scripts = [world.do_get_script_by_identity(i) for i in saved['scripts']]
-        self.children = [ObjectFile().load(child, world) for child in saved['children']]
+        self.children = [type(self)().load(child, world) for child in saved['children']]
         self.attributes = saved['attributes']
         return self
 
     # - быстрые макросы
     def add_child(self):
-        self.children.append(ObjectFile())
+        child = type(self)()
+        self.children.append(child)
+        return child
 
     def delete_child(self, identity):
         for child_indx in range(len(self.children)):
@@ -105,6 +107,7 @@ class WorldFile:
         self.port_web = None
         self.connection_prefab_identity = None
         self.web_client_code = ''
+        self.host = 'localhost'
 
         self.load_new()
 
@@ -119,11 +122,11 @@ class WorldFile:
         self.root_object = ObjectFile().load(self._data['root'], self)
         self.prefabs = [PrefabFile().load(prefab, self) for prefab in self._data['prefabs']]
         self.port_wss = self._data['server']['port_wss']
-        self.port_wss = self._data['server']['port_wss']
         self.port_web = self._data['server']['port_web']
         self.filename = filename
         self.connection_prefab_identity = self._data['connection_prefab_identity']
         self.web_client_code = self._data['server']['web_client_code']
+        self.host = self._data['server'].get('host', 'localhost')
 
         return self
 
@@ -136,6 +139,7 @@ class WorldFile:
         self.port_web = 1339
         self.connection_prefab_identity = ''
         self.web_client_code = settings.DEFAULT_CLIENT
+        self.host = 'localhost'
 
         return self
 
@@ -149,7 +153,8 @@ class WorldFile:
             'server': {
                 'port_wss': self.port_wss,
                 'port_web': self.port_web,
-                'web_client_code': self.web_client_code
+                'web_client_code': self.web_client_code,
+                'host': self.host
             },
         }
 
@@ -158,7 +163,14 @@ class WorldFile:
 
     # - быстрые макросы
     def do_new_script(self):
-        self.scripts.append(ScriptFile())
+        script = ScriptFile()
+        self.scripts.append(script)
+        return script
+
+    def do_get_script_by_name(self, name):
+        for script in self.scripts:
+            if script.name == name:
+                return script
 
     def do_delete_script(self, identity):
         for script_indx in range(len(self.scripts)):

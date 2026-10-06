@@ -7,3 +7,5 @@ from .objects import ObjectsContainer
 from .object_inspector import ObjectInspectorContainer
 from .export import ExportContainer
 from .web_client import WebClientCodeContainer
+from .assets import AssetsContainer
+from .agents import AgentsContainer

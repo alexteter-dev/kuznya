@@ -1,6 +1,7 @@
 import asyncio
 import queue
 import threading
+import traceback
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 from websockets.asyncio.server import serve
@@ -19,7 +20,7 @@ class WebsocketClientServer(SimpleHTTPRequestHandler):
             super().do_GET()
 
     def log_message(self, format, *args):
-        print(f"HTTP: {format % args}")
+        pass
 
 
 class Connection:
@@ -27,6 +28,7 @@ class Connection:
         self.websocket = websocket
         self.message_queue = queue.Queue()
         self.connected = True
+        self.connected_object = None
 
     def get_messages(self):
         messages = []
@@ -64,9 +66,18 @@ class WebSocketManager:
         self.disconnections.put(connection)
 
     def update(self):
+        import main
         while not self.new_connections.empty():
             try:
                 conn = self.new_connections.get_nowait()
+                # объект игрока создается в игровом потоке, а не в потоке сети
+                try:
+                    main.world.connect(conn)
+                except Exception as e:
+                    print(f"[СЕРВЕР] Не удалось создать объект игрока: {e}")
+                    traceback.print_exc()
+                    conn.connected = False
+                    continue
                 self.connections.append(conn)
                 print(f"[СЕРВЕР] Новое подключение. Подключения: {len(self.connections)}")
             except queue.Empty:
@@ -77,7 +88,11 @@ class WebSocketManager:
                 conn = self.disconnections.get_nowait()
                 if conn in self.connections:
                     self.connections.remove(conn)
-                    conn.connected_object.trigger('on_disconnect')
+                    try:
+                        conn.connected_object.trigger('on_disconnect')
+                    except Exception as e:
+                        print(f"[script error] {e}")
+                        traceback.print_exc()
                     print(f"[СЕРВЕР] Подключение прервано. Подключения: {len(self.connections)}")
             except queue.Empty:
                 break
@@ -88,11 +103,8 @@ class WebSocketManager:
 
 
 async def handle_connection(websocket):
-    from main import world
-
     conn = Connection(websocket)
     ws_manager.add_connection(conn)
-    world.connect(conn)
 
     try:
         async for message in websocket:
@@ -114,14 +126,14 @@ def run_async_loop():
 def start_http_server():
     import main
     print(f'[СЕРВЕР] Запуск http-сервера, на порту: {main.world.port_web}')
-    httpd = HTTPServer(('localhost', main.world.port_web), WebsocketClientServer)
+    httpd = HTTPServer((main.world.host, main.world.port_web), WebsocketClientServer)
     httpd.serve_forever()
 
 
 async def start_websocket_server():
     import main
-    async with serve(handle_connection, "localhost", main.world.port_wss) as server:
-        print(f"[СЕРВЕР] Запуск веб-сокет сервера на ws://localhost:{main.world.port_wss}")
+    async with serve(handle_connection, main.world.host, main.world.port_wss) as server:
+        print(f"[СЕРВЕР] Запуск веб-сокет сервера на ws://{main.world.host}:{main.world.port_wss}")
         await server.serve_forever()
 
 

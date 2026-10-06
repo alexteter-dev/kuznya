@@ -18,7 +18,8 @@ from easy_gui_prompt import EasyGUI
 # - локальные модули
 from keybindings import kb
 from widgets import TabContainer, Tab, ServerContainer, ScriptsContainer, ScriptInspectorContainer, \
-    ScriptCodeInspectorContainer, ObjectInspectorContainer, ExportContainer, WebClientCodeContainer
+    ScriptCodeInspectorContainer, ObjectInspectorContainer, ExportContainer, WebClientCodeContainer, \
+    AssetsContainer, AgentsContainer
 from widgets.launch import LaunchContainer
 from widgets.objects import ObjectsContainer
 from widgets.prefabs import PrefabsContainer
@@ -50,6 +51,8 @@ class KuznyaApp:
                         MenuItem("Скрипты", handler=self.do_scripts_tab),
                         MenuItem("Объекты", handler=self.do_objects_tab),
                         MenuItem("Сервер", handler=self.do_settings_tab),
+                        MenuItem("Ассеты", handler=self.do_assets_tab),
+                        MenuItem("ИИ-агенты", handler=self.do_agents_tab),
                     ]
                 )
             ],
@@ -63,6 +66,16 @@ class KuznyaApp:
 
     def do_launch_tab(self):
         self.tab_container.tabs.append(Tab(LaunchContainer(), title='Запуск'))
+        self.focus_last_tab()
+
+    # - открытие вкладки ассетов
+    def do_assets_tab(self):
+        self.tab_container.tabs.append(Tab(AssetsContainer(), title='Ассеты'))
+        self.focus_last_tab()
+
+    # - открытие вкладки ИИ-агентов
+    def do_agents_tab(self):
+        self.tab_container.tabs.append(Tab(AgentsContainer(), title='ИИ-агенты'))
         self.focus_last_tab()
 
     # - открытие вкладки шаблонов

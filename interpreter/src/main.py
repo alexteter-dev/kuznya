@@ -1,6 +1,12 @@
 import argparse
 import os
 import pathlib
+import sys
+
+# скрипт запускается как __main__, а остальные модули импортируют его как main:
+# без этой строки мир загружался бы дважды
+sys.modules.setdefault('main', sys.modules[__name__])
+
 from loop import run
 from utils.game import World
 import time

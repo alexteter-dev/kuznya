@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kuznya": {
+      "command": "python",
+      "args": ["src/mcp_server.py"]
+    }
+  }
+}
