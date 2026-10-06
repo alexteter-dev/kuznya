@@ -1,0 +1,4439 @@
+{
+ "capes": [
+  {
+   "cape": "Armsmaster",
+   "civilian": "Colin Wallis",
+   "sex": "m",
+   "age": 33,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 7
+    }
+   ],
+   "power": "Tinker whose specialty is miniaturising and combining technologies so many functions fit in one compact device. Needs lab time and prep; no innate combat power beyond his gear.",
+   "gear": "Powered armour, multi-function halberd (grapple, plasma blade, EMP, tranquilliser), tinker motorcycle, lie-detecting helmet software",
+   "civilian_job": "full-time Protectorate hero, team leader",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "driven",
+    "glory-seeking",
+    "workaholic",
+    "socially blunt",
+    "efficient"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Rating is an estimate; the wiki gives only 'Tinker'."
+  },
+  {
+   "cape": "Miss Militia",
+   "civilian": "Hannah",
+   "sex": "f",
+   "age": 31,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 5
+    }
+   ],
+   "power": "Carries a shifting mass of energy that becomes any conventional weapon she pictures, from knife to rocket launcher, with unlimited ammunition. Does not need sleep and has perfect recall.",
+   "gear": "Her power-forged weapons; stars-and-stripes scarf and sash",
+   "civilian_job": "full-time Protectorate hero, second in command",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "patriotic",
+    "disciplined",
+    "compassionate",
+    "level-headed"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Birth name Hana; rating estimated."
+  },
+  {
+   "cape": "Assault",
+   "civilian": "Ethan",
+   "sex": "m",
+   "age": 30,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 7
+    }
+   ],
+   "power": "Controls kinetic energy by touch: absorbs incoming impacts and releases them to hit harder, leap or launch himself and objects.",
+   "gear": "Red armoured costume with visor",
+   "civilian_job": "full-time Protectorate hero (reformed ex-villain Madcap, not public knowledge)",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "joker",
+    "irreverent",
+    "flirtatious",
+    "loyal to Battery"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Striker 7 was his rating as Madcap."
+  },
+  {
+   "cape": "Battery",
+   "civilian": "",
+   "sex": "f",
+   "age": 26,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Mover",
+     "rating": 4
+    },
+    {
+     "cls": "Breaker",
+     "rating": 4
+    },
+    {
+     "cls": "Brute",
+     "rating": 3
+    }
+   ],
+   "power": "Stands still to build a charge, then spends it as a short burst of super speed, strength, toughness and limited electromagnetic pull. Longer charge gives a longer burst.",
+   "gear": "Costume with circuit lines that glow as she charges",
+   "civilian_job": "full-time Protectorate hero",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "serious",
+    "by-the-book",
+    "principled",
+    "exasperated by Assault"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Civilian name unknown in canon; married to Assault. Power bought from Cauldron. Age is an estimate."
+  },
+  {
+   "cape": "Velocity",
+   "civilian": "Robin Swoyer",
+   "sex": "m",
+   "age": 29,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Mover",
+     "rating": 7
+    },
+    {
+     "cls": "Breaker",
+     "rating": 2
+    }
+   ],
+   "power": "Extreme super speed, but the faster he goes the less he can physically affect the world, so his blows are weak at top speed.",
+   "gear": "Red racing-stripe costume",
+   "civilian_job": "full-time Protectorate hero, ex-military",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "professional",
+    "brisk",
+    "dutiful",
+    "scout mindset"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Triumph",
+   "civilian": "Rory Christner",
+   "sex": "m",
+   "age": 18,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 5
+    },
+    {
+     "cls": "Brute",
+     "rating": 3
+    }
+   ],
+   "power": "Focused sonic shout strong enough to break concrete, plus above-normal strength and toughness.",
+   "gear": "Gold lion-themed armour and helmet",
+   "civilian_job": "Protectorate hero, just graduated from the Wards; son of the mayor",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "confident",
+    "athletic",
+    "ambitious",
+    "privileged"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Dauntless",
+   "civilian": "Shawn",
+   "sex": "m",
+   "age": 31,
+   "faction": "Protectorate",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 5
+    },
+    {
+     "cls": "Trump",
+     "rating": 6
+    }
+   ],
+   "power": "Once a day can invest a little permanent power into an object; his chosen items keep getting stronger with no known ceiling.",
+   "gear": "Arclance (lightning spear), forcefield shield, flight boots, hardened armour, all empowered daily",
+   "civilian_job": "full-time Protectorate hero",
+   "hangout": "Protectorate HQ (the Rig)",
+   "personality": [
+    "earnest",
+    "steady",
+    "humble",
+    "rising star"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Aegis",
+   "civilian": "Carlos",
+   "sex": "m",
+   "age": 17,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Brute",
+     "rating": 5
+    },
+    {
+     "cls": "Mover",
+     "rating": 3
+    }
+   ],
+   "power": "Body full of redundant biology: any part can take over for a destroyed organ, so he keeps going through wounds that should kill. Also flies and has enhanced strength from ignoring normal limits.",
+   "gear": "Rust-red costume with silver shield emblem",
+   "civilian_job": "student at Arcadia High, Wards team leader",
+   "hangout": "Wards base under the PRT HQ, Downtown",
+   "personality": [
+    "responsible",
+    "reliable",
+    "level-headed",
+    "self-sacrificing"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Clockblocker",
+   "civilian": "Dennis",
+   "sex": "m",
+   "age": 17,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 7
+    }
+   ],
+   "power": "Anything he touches is frozen in time and made immovable and invulnerable for a random period from about thirty seconds to ten minutes. He cannot end it early.",
+   "gear": "White armour with animated clock faces",
+   "civilian_job": "student at Arcadia High",
+   "hangout": "Wards base under the PRT HQ, Downtown",
+   "personality": [
+    "wisecracking",
+    "irreverent",
+    "brave",
+    "hides worry about sick father"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Gallant",
+   "civilian": "Dean Stansfield",
+   "sex": "m",
+   "age": 17,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 4
+    },
+    {
+     "cls": "Master",
+     "rating": 3
+    },
+    {
+     "cls": "Thinker",
+     "rating": 2
+    }
+   ],
+   "power": "Fires energy bolts that hit with moderate force and flood the target with an emotion he chooses. Also sees other people's emotions as coloured auras.",
+   "gear": "Silver powered-armour suit (built for him; he poses as a tinker)",
+   "civilian_job": "student at Arcadia High, son of a wealthy family",
+   "hangout": "Wards base under the PRT HQ, Downtown",
+   "personality": [
+    "chivalrous",
+    "empathetic",
+    "diplomatic",
+    "wealthy"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Dates Glory Girl. Ratings estimated."
+  },
+  {
+   "cape": "Kid Win",
+   "civilian": "Chris",
+   "sex": "m",
+   "age": 15,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 4
+    }
+   ],
+   "power": "Tinker who builds modular, interchangeable gear; struggles with dyscalculia and unfinished projects until he grasps his specialty.",
+   "gear": "Hoverboard, laser pistols, oversized alternator cannon, red-and-gold armour",
+   "civilian_job": "student at Arcadia High",
+   "hangout": "Wards base under the PRT HQ, Downtown (workshop)",
+   "personality": [
+    "insecure",
+    "inventive",
+    "eager",
+    "scatterbrained"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "First name Chris is from memory; the wiki infobox gives no civilian name."
+  },
+  {
+   "cape": "Vista",
+   "civilian": "Missy Biron",
+   "sex": "f",
+   "age": 12,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 9
+    }
+   ],
+   "power": "Bends and stretches space over a wide area, shrinking distances or folding walls. Works slower and weaker the more living people occupy the space.",
+   "gear": "Green-and-white costume with visor",
+   "civilian_job": "middle-school student",
+   "hangout": "Wards base under the PRT HQ, Downtown",
+   "personality": [
+    "mature for her age",
+    "determined",
+    "frustrated at being babied",
+    "crush on Gallant"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Shadow Stalker",
+   "civilian": "Sophia Hess",
+   "sex": "f",
+   "age": 15,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Breaker",
+     "rating": 3
+    },
+    {
+     "cls": "Stranger",
+     "rating": 2
+    },
+    {
+     "cls": "Mover",
+     "rating": 1
+    }
+   ],
+   "power": "Shifts into a weightless shadow form that passes through solid matter and glides; nearly invisible in the dark. Electricity hurts her badly in that state.",
+   "gear": "Twin hand crossbows (tranquilliser bolts officially, lethal broadheads secretly), dark cloak and mask",
+   "civilian_job": "student at Winslow High, track team; on probation with the Wards",
+   "hangout": "Wards base under the PRT HQ, Downtown / Winslow High",
+   "personality": [
+    "predatory",
+    "aggressive",
+    "contemptuous of weakness",
+    "loner"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Former violent vigilante; one of Taylor's bullies."
+  },
+  {
+   "cape": "Browbeat",
+   "civilian": "",
+   "sex": "m",
+   "age": 16,
+   "faction": "Wards",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Brute",
+     "rating": 4
+    },
+    {
+     "cls": "Changer",
+     "rating": 2
+    },
+    {
+     "cls": "Striker",
+     "rating": 2
+    }
+   ],
+   "power": "Personal biokinesis: bulks up muscle, heals himself and reshapes his body, plus short-range telekinesis he uses to add force to punches.",
+   "gear": "Simple costume, no notable gear",
+   "civilian_job": "high-school student, brand-new Ward",
+   "hangout": "Wards base under the PRT HQ, Downtown",
+   "personality": [
+    "quiet",
+    "earnest",
+    "overlooked",
+    "newcomer"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Joined the Wards in April 2011; the public still thinks he is independent."
+  },
+  {
+   "cape": "Lady Photon",
+   "civilian": "Sarah Pelham",
+   "sex": "f",
+   "age": 40,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 4
+    },
+    {
+     "cls": "Mover",
+     "rating": 3
+    },
+    {
+     "cls": "Shaker",
+     "rating": 3
+    }
+   ],
+   "power": "Flies, fires laser beams and raises strong forcefield barriers and bubbles.",
+   "gear": "White costume with starburst emblem, no mask",
+   "civilian_job": "public hero with no secret identity; mother",
+   "hangout": "Pelham family home",
+   "personality": [
+    "principled",
+    "maternal",
+    "idealistic",
+    "public-facing"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Manpower",
+   "civilian": "Neil Pelham",
+   "sex": "m",
+   "age": 40,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Brute",
+     "rating": 5
+    },
+    {
+     "cls": "Breaker",
+     "rating": 2
+    }
+   ],
+   "power": "Generates a personal electromagnetic field that gives him great strength and a protective shield at very close range.",
+   "gear": "White-and-yellow costume, no mask",
+   "civilian_job": "public hero with no secret identity",
+   "hangout": "Pelham family home",
+   "personality": [
+    "jovial",
+    "protective",
+    "athletic",
+    "family man"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Laserdream",
+   "civilian": "Crystal Pelham",
+   "sex": "f",
+   "age": 18,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 5
+    },
+    {
+     "cls": "Mover",
+     "rating": 3
+    },
+    {
+     "cls": "Shaker",
+     "rating": 2
+    }
+   ],
+   "power": "Flies and fires strong lasers; her forcefields are weaker than her mother's.",
+   "gear": "White costume with magenta emblem",
+   "civilian_job": "university student",
+   "hangout": "Pelham family home / the university",
+   "personality": [
+    "outgoing",
+    "confident",
+    "friendly",
+    "protective cousin"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Shielder",
+   "civilian": "Eric Pelham",
+   "sex": "m",
+   "age": 14,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 4
+    },
+    {
+     "cls": "Blaster",
+     "rating": 3
+    },
+    {
+     "cls": "Mover",
+     "rating": 2
+    }
+   ],
+   "power": "Strong blue forcefields with weaker flight and laser blasts.",
+   "gear": "White-and-blue costume, blue-dyed hair",
+   "civilian_job": "student at Arcadia High",
+   "hangout": "Pelham family home",
+   "personality": [
+    "cocky",
+    "teenage",
+    "eager",
+    "good-natured"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Brandish",
+   "civilian": "Carol Dallon",
+   "sex": "f",
+   "age": 38,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 5
+    },
+    {
+     "cls": "Breaker",
+     "rating": 1
+    }
+   ],
+   "power": "Shapes hard-light blades and other weapons in her hands, and can collapse into an untouchable ball of light to avoid harm.",
+   "gear": "Light weapons only; white costume with crossed-blade emblem",
+   "civilian_job": "lawyer",
+   "hangout": "Dallon family home / her law office",
+   "personality": [
+    "stern",
+    "uncompromising",
+    "suspicious",
+    "driven"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Flashbang",
+   "civilian": "Mark Dallon",
+   "sex": "m",
+   "age": 38,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 4
+    }
+   ],
+   "power": "Forms grenade-like orbs of light that bounce and explode with concussive force or blinding flash on a timer he sets.",
+   "gear": "White costume",
+   "civilian_job": "mostly at home; clinically depressed and often inactive",
+   "hangout": "Dallon family home",
+   "personality": [
+    "withdrawn",
+    "depressed",
+    "gentle",
+    "unreliable"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Glory Girl",
+   "civilian": "Victoria Dallon",
+   "sex": "f",
+   "age": 17,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Brute",
+     "rating": 6
+    },
+    {
+     "cls": "Mover",
+     "rating": 4
+    },
+    {
+     "cls": "Shaker",
+     "rating": 3
+    },
+    {
+     "cls": "Master",
+     "rating": 3
+    }
+   ],
+   "power": "Flies, hits with super strength and is protected by an invisible forcefield that blocks one big hit then needs seconds to return. Radiates an aura of awe to admirers and fear to enemies.",
+   "gear": "White dress costume with tiara and cape",
+   "civilian_job": "student at Arcadia High, also takes university classes",
+   "hangout": "Arcadia High / Dallon family home / flying patrols Downtown",
+   "personality": [
+    "bold",
+    "hot-tempered",
+    "glamorous",
+    "protective of her sister"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Panacea",
+   "civilian": "Amy Dallon",
+   "sex": "f",
+   "age": 17,
+   "faction": "New Wave",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 9
+    }
+   ],
+   "power": "Total control of living biology by touch: heals almost anything, can reshape or create organisms. Cannot affect herself and refuses to work on brains.",
+   "gear": "White robe with red cross, hood and scarf",
+   "civilian_job": "student at Arcadia High, volunteer healer in hospitals",
+   "hangout": "Brockton General Hospital / Dallon family home",
+   "personality": [
+    "exhausted",
+    "guilt-ridden",
+    "sarcastic",
+    "repressed"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Adopted; secretly the daughter of the jailed villain Marquis. Taylor informally called her 'Striker 12+'; 9 is an estimate."
+  },
+  {
+   "cape": "Kaiser",
+   "civilian": "Max Anders",
+   "sex": "m",
+   "age": 36,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 7
+    }
+   ],
+   "power": "Makes blades, spikes and pillars of steel grow from any solid surface he can see within range, including his own armour. The metal is permanent.",
+   "gear": "Elaborate self-grown steel plate armour with crown of blades",
+   "civilian_job": "CEO of Medhall Corporation",
+   "hangout": "Medhall building, Downtown / his penthouse",
+   "personality": [
+    "charismatic",
+    "calculating",
+    "manipulative",
+    "image-conscious"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Rating estimated."
+  },
+  {
+   "cape": "Purity",
+   "civilian": "Kayden Anders",
+   "sex": "f",
+   "age": 29,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 8
+    },
+    {
+     "cls": "Mover",
+     "rating": 4
+    },
+    {
+     "cls": "Breaker",
+     "rating": 2
+    }
+   ],
+   "power": "Absorbs light to fuel flight and twin spiralling beams powerful enough to level buildings; glows blindingly while using it.",
+   "gear": "None; plain white costume",
+   "civilian_job": "interior decorator; single mother of baby Aster",
+   "hangout": "her apartment Downtown / skies over the Docks",
+   "personality": [
+    "proud",
+    "maternal",
+    "self-justifying",
+    "conflicted"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "At story start she is acting solo against the ABB and is formally independent; she rejoins the Empire on 15 April."
+  },
+  {
+   "cape": "Hookwolf",
+   "civilian": "Brad Meadows",
+   "sex": "m",
+   "age": 30,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Changer",
+     "rating": 6
+    },
+    {
+     "cls": "Brute",
+     "rating": 6
+    }
+   ],
+   "power": "Turns his body into a shifting mass of hooks, blades and metal around a small protected core, usually shaped as a huge wolf.",
+   "gear": "None needed",
+   "civilian_job": "runs underground dog-fighting and pit-fighting rings",
+   "hangout": "Empire fighting pits and dog rings",
+   "personality": [
+    "brutal",
+    "bloodthirsty",
+    "blunt",
+    "values strength"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Wanted for multiple murders with a pending Birdcage sentence; ratings and civilian name from memory."
+  },
+  {
+   "cape": "Krieg",
+   "civilian": "James Fliescher",
+   "sex": "m",
+   "age": 45,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 5
+    },
+    {
+     "cls": "Brute",
+     "rating": 4
+    }
+   ],
+   "power": "Surrounded by a field that drains kinetic energy: attacks and people slow near him while his own blows land harder.",
+   "gear": "Gas mask, officer's cap and trench-coat costume",
+   "civilian_job": "head of a pharmacy chain tied to Medhall",
+   "hangout": "Medhall-linked offices / Empire meetings",
+   "personality": [
+    "cold",
+    "formal",
+    "loyal lieutenant",
+    "European connections"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Fenja",
+   "civilian": "Jessica Biermann",
+   "sex": "f",
+   "age": 24,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Breaker",
+     "rating": 6
+    },
+    {
+     "cls": "Brute",
+     "rating": 5
+    }
+   ],
+   "power": "Grows to several storeys tall and warps space around herself so incoming harm is reduced as she grows.",
+   "gear": "Valkyrie armour with sword and shield",
+   "civilian_job": "Kaiser's bodyguard",
+   "hangout": "at Kaiser's side",
+   "personality": [
+    "loyal",
+    "proud",
+    "martial",
+    "inseparable from twin"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Menja",
+   "civilian": "Nessa Biermann",
+   "sex": "f",
+   "age": 24,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Breaker",
+     "rating": 6
+    },
+    {
+     "cls": "Brute",
+     "rating": 5
+    }
+   ],
+   "power": "Same power as her twin: gigantic growth with damage shrinking as size rises.",
+   "gear": "Valkyrie armour with spear and shield",
+   "civilian_job": "Kaiser's bodyguard",
+   "hangout": "at Kaiser's side",
+   "personality": [
+    "loyal",
+    "fierce",
+    "martial",
+    "inseparable from twin"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Rune",
+   "civilian": "Tammi",
+   "sex": "f",
+   "age": 15,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 5
+    },
+    {
+     "cls": "Striker",
+     "rating": 2
+    }
+   ],
+   "power": "Marks non-living objects by touch and then moves them telekinetically, even heavy slabs she rides on; needs prior contact.",
+   "gear": "Hooded robe marked with runes",
+   "civilian_job": "high-school student from a neo-Nazi family",
+   "hangout": "The Towers / Empire gatherings",
+   "personality": [
+    "bratty",
+    "vicious",
+    "rebellious",
+    "indoctrinated"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Part of the Empire's mid-April consolidation of out-of-town muscle."
+  },
+  {
+   "cape": "Othala",
+   "civilian": "",
+   "sex": "f",
+   "age": 19,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Trump",
+     "rating": 5
+    },
+    {
+     "cls": "Striker",
+     "rating": 2
+    }
+   ],
+   "power": "Touch grants another person one temporary power at a time: regeneration, strength, speed, invulnerability or fire.",
+   "gear": "Red bodysuit with the Othala rune, eyepatch",
+   "civilian_job": "Empire support; married to Victor",
+   "hangout": "with Victor, Empire safehouses",
+   "personality": [
+    "devoted",
+    "quiet",
+    "supportive",
+    "true believer"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Victor",
+   "civilian": "",
+   "sex": "m",
+   "age": 23,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Thinker",
+     "rating": 5
+    },
+    {
+     "cls": "Stranger",
+     "rating": 2
+    }
+   ],
+   "power": "Drains skills from people nearby, keeping them permanently if he takes long enough, leaving the victim clumsy at them.",
+   "gear": "Red-and-black costume; whatever weapons his stolen skills suit, often firearms",
+   "civilian_job": "Empire fixer, sniper and recruiter",
+   "hangout": "with Othala, Empire safehouses",
+   "personality": [
+    "arrogant",
+    "polished",
+    "opportunistic",
+    "expert at everything"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Alabaster",
+   "civilian": "",
+   "sex": "m",
+   "age": 25,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Breaker",
+     "rating": 5
+    },
+    {
+     "cls": "Thinker",
+     "rating": 1
+    }
+   ],
+   "power": "Every 4.3 seconds his body snaps back to a perfect unharmed state regardless of injury or exhaustion.",
+   "gear": "Knives and guns",
+   "civilian_job": "Empire enforcer",
+   "hangout": "Empire turf, street-level enforcement",
+   "personality": [
+    "relentless",
+    "cruel",
+    "unflappable",
+    "thug"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Night",
+   "civilian": "Dorothy Schmidt",
+   "sex": "f",
+   "age": 30,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Changer",
+     "rating": 7
+    },
+    {
+     "cls": "Breaker",
+     "rating": 5
+    },
+    {
+     "cls": "Stranger",
+     "rating": 3
+    }
+   ],
+   "power": "Whenever nobody can see her she becomes a blindingly fast, many-limbed bladed monster and heals fully; observation forces her human.",
+   "gear": "Flashbang and smoke grenades to break line of sight, black cloak",
+   "civilian_job": "poses as a suburban housewife",
+   "hangout": "with Fog; Purity's inner circle",
+   "personality": [
+    "robotic",
+    "emotionless",
+    "obedient",
+    "unsettling"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Arrives with the Empire's mid-April consolidation; not in the city on 11 April. Civilian name from memory."
+  },
+  {
+   "cape": "Fog",
+   "civilian": "Geoff Schmidt",
+   "sex": "m",
+   "age": 35,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Breaker",
+     "rating": 6
+    },
+    {
+     "cls": "Shaker",
+     "rating": 5
+    }
+   ],
+   "power": "Becomes a creeping cloud of living mist that can solidify inside lungs and wounds, shredding what it touches.",
+   "gear": "Grey costume with gas mask",
+   "civilian_job": "poses as a suburban husband",
+   "hangout": "with Night; Purity's inner circle",
+   "personality": [
+    "cold",
+    "affectless",
+    "sadistic",
+    "obedient"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Arrives with the Empire's mid-April consolidation. Civilian name from memory."
+  },
+  {
+   "cape": "Crusader",
+   "civilian": "Justin",
+   "sex": "m",
+   "age": 25,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Master",
+     "rating": 6
+    },
+    {
+     "cls": "Mover",
+     "rating": 2
+    }
+   ],
+   "power": "Summons a squad of ghostly armoured copies of himself carrying spears; they pass through walls and armour but strike living flesh, and can carry him aloft.",
+   "gear": "Knightly plate costume, spear",
+   "civilian_job": "Empire enforcer; close to Purity",
+   "hangout": "Purity's circle / Empire turf",
+   "personality": [
+    "zealous",
+    "self-righteous",
+    "loyal to Purity",
+    "soldierly"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Cricket",
+   "civilian": "Melody Jurist",
+   "sex": "f",
+   "age": 25,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Thinker",
+     "rating": 3
+    },
+    {
+     "cls": "Shaker",
+     "rating": 2
+    }
+   ],
+   "power": "Emits inaudible sound that disorients opponents and gives her echolocation, with heightened reflexes.",
+   "gear": "Twin kama (short scythes), cage-like mask",
+   "civilian_job": "pit fighter",
+   "hangout": "Hookwolf's fighting pits",
+   "personality": [
+    "scarred",
+    "terse",
+    "combat-loving",
+    "loyal to Hookwolf"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Civilian name is from memory."
+  },
+  {
+   "cape": "Stormtiger",
+   "civilian": "",
+   "sex": "m",
+   "age": 28,
+   "faction": "Empire 88",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 4
+    },
+    {
+     "cls": "Mover",
+     "rating": 2
+    }
+   ],
+   "power": "Controls air: forms claws of compressed wind, deflects projectiles, launches concussive blasts and tracks by scent.",
+   "gear": "Bare-chested with chains and tiger mask",
+   "civilian_job": "former pit fighter",
+   "hangout": "Hookwolf's fighting pits",
+   "personality": [
+    "feral",
+    "aggressive",
+    "macho",
+    "loyal to Hookwolf"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Lung",
+   "civilian": "Kenta",
+   "sex": "m",
+   "age": 32,
+   "faction": "ABB",
+   "alignment": "villain",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Brute",
+     "rating": 9
+    },
+    {
+     "cls": "Blaster",
+     "rating": 6
+    },
+    {
+     "cls": "Changer",
+     "rating": 4
+    }
+   ],
+   "power": "The longer he fights or anticipates a fight, the stronger he gets: growing scales, size, regeneration, pyrokinesis and eventually wings. Starts each fight near human level.",
+   "gear": "Steel dragon mask",
+   "civilian_job": "gang lord",
+   "hangout": "ABB-run gambling dens and brothels in the Docks",
+   "personality": [
+    "domineering",
+    "patient",
+    "proud",
+    "ruthless"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "PRT rates him Brute 4-9, Blaster 2-6 depending on escalation. Fought Leviathan alone at Kyushu. Given name Kenta is from memory."
+  },
+  {
+   "cape": "Oni Lee",
+   "civilian": "",
+   "sex": "m",
+   "age": 25,
+   "faction": "ABB",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Mover",
+     "rating": 6
+    },
+    {
+     "cls": "Master",
+     "rating": 3
+    }
+   ],
+   "power": "Teleports to any spot he can see, leaving behind a copy that acts for several seconds before crumbling to ash.",
+   "gear": "Knives, guns, belts of grenades (copies inherit them), demon mask",
+   "civilian_job": "ABB enforcer and assassin",
+   "hangout": "at Lung's side in the Docks",
+   "personality": [
+    "obedient",
+    "emotionless",
+    "suicidal tactics",
+    "killer"
+   ],
+   "lethal": true,
+   "verified": true
+  },
+  {
+   "cape": "Bakuda",
+   "civilian": "",
+   "sex": "f",
+   "age": 22,
+   "faction": "ABB",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 6
+    }
+   ],
+   "power": "Bomb tinker: builds explosives with exotic effects such as time-stop, glassing, pain, fusion and miniature black holes.",
+   "gear": "Grenade launcher, toe-ring detonators, gas-mask goggles, bombs implanted in conscripts",
+   "civilian_job": "former Cornell student who held her university hostage",
+   "hangout": "hidden workshop in ABB territory",
+   "personality": [
+    "narcissistic",
+    "manic",
+    "sadistic",
+    "brilliant"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Recruited by Lung on 23 March 2011; not yet publicly known in April."
+  },
+  {
+   "cape": "Skidmark",
+   "civilian": "Adam Mustain",
+   "sex": "m",
+   "age": 30,
+   "faction": "Merchants",
+   "alignment": "villain",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 2
+    }
+   ],
+   "power": "Paints glowing strips on surfaces that push anything crossing them in one direction; layering strips multiplies the force.",
+   "gear": "None",
+   "civilian_job": "drug dealer and addict",
+   "hangout": "Merchants' squat in the north-end slums",
+   "personality": [
+    "foul-mouthed",
+    "crude",
+    "addict",
+    "surprisingly cunning"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Civilian name is from memory."
+  },
+  {
+   "cape": "Squealer",
+   "civilian": "Sherrel",
+   "sex": "f",
+   "age": 27,
+   "faction": "Merchants",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 2
+    },
+    {
+     "cls": "Mover",
+     "rating": 3
+    }
+   ],
+   "power": "Vehicle tinker who builds oversized, heavily armed and often cloaked trucks and tanks from scrap.",
+   "gear": "Monster trucks and armoured vehicles, remote controls",
+   "civilian_job": "drug dealer and addict",
+   "hangout": "scrapyard garage on Merchant turf",
+   "personality": [
+    "trashy",
+    "loud",
+    "addict",
+    "mechanically gifted"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "First name from memory."
+  },
+  {
+   "cape": "Mush",
+   "civilian": "",
+   "sex": "m",
+   "age": 35,
+   "faction": "Merchants",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Changer",
+     "rating": 4
+    },
+    {
+     "cls": "Brute",
+     "rating": 3
+    }
+   ],
+   "power": "Extends skin-like tendrils that gather rubbish and loose debris into a large armoured body around him.",
+   "gear": "Whatever trash is nearby",
+   "civilian_job": "drug dealer and addict",
+   "hangout": "alleys and dumps on Merchant turf",
+   "personality": [
+    "dull",
+    "filthy",
+    "follower",
+    "addict"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Whirlygig",
+   "civilian": "",
+   "sex": "f",
+   "age": 20,
+   "faction": "Merchants",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 3
+    }
+   ],
+   "power": "Spins loose objects around herself in a fast telekinetic orbit that works as both shield and battering storm.",
+   "gear": "None",
+   "civilian_job": "gang member and addict",
+   "hangout": "Merchant turf",
+   "personality": [
+    "minor",
+    "erratic",
+    "addict"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "The wiki's start-of-story roster lists her with the Merchants."
+  },
+  {
+   "cape": "Grue",
+   "civilian": "Brian Laborn",
+   "sex": "m",
+   "age": 17,
+   "faction": "Undersiders",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 4
+    },
+    {
+     "cls": "Stranger",
+     "rating": 3
+    }
+   ],
+   "power": "Pours out clouds of black smoke-like darkness that block sight, muffle sound and dampen radiation; only he sees through it.",
+   "gear": "Motorcycle leathers and skull-visored helmet",
+   "civilian_job": "takes online classes and boxes at a gym; working to gain custody of his sister",
+   "hangout": "Undersiders' loft (Redmond Welding) / his Downtown apartment",
+   "personality": [
+    "pragmatic",
+    "disciplined",
+    "protective",
+    "stoic"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Tattletale",
+   "civilian": "Lisa Wilbourn",
+   "sex": "f",
+   "age": 16,
+   "faction": "Undersiders",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Thinker",
+     "rating": 7
+    }
+   ],
+   "power": "Superhuman intuition that chains small clues into large, usually correct deductions. Overuse brings crippling headaches, and wrong starting assumptions lead her astray.",
+   "gear": "Lavender bodysuit, domino mask, small hidden pistol, lockpicks and laptop",
+   "civilian_job": "runaway living on heist money; information broker",
+   "hangout": "Undersiders' loft (Redmond Welding)",
+   "personality": [
+    "smug",
+    "nosy",
+    "clever",
+    "manipulative but caring"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Born Sarah Livsey."
+  },
+  {
+   "cape": "Regent",
+   "civilian": "Alec Vasil",
+   "sex": "m",
+   "age": 15,
+   "faction": "Undersiders",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Master",
+     "rating": 4
+    }
+   ],
+   "power": "Triggers twitches, stumbles and spasms in people he can see; with hours of effort he can seize full control of a person's body, a trick he keeps secret.",
+   "gear": "Sceptre with built-in taser, white mask and coronet",
+   "civilian_job": "dropout who plays video games",
+   "hangout": "Undersiders' loft (Redmond Welding), on the couch",
+   "personality": [
+    "lazy",
+    "flippant",
+    "amoral",
+    "bored"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Born Jean-Paul Vasil, runaway son of Heartbreaker; once operated as Hijack. Wiki lists Master 7 or above for his full ability; 4 reflects what is publicly known in April."
+  },
+  {
+   "cape": "Bitch",
+   "civilian": "Rachel Lindt",
+   "sex": "f",
+   "age": 16,
+   "faction": "Undersiders",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Master",
+     "rating": 6
+    }
+   ],
+   "power": "Touch makes dogs swell into car-sized armoured monsters of muscle and bone for a while. Her power rewired her mind to read dogs better than people.",
+   "gear": "Cheap plastic dog mask, whistle, chains and leashes; dogs Brutus, Judas and Angelica",
+   "civilian_job": "homeless; rescues and trains stray dogs",
+   "hangout": "Undersiders' loft and her makeshift dog shelter in the Docks",
+   "personality": [
+    "hostile",
+    "blunt",
+    "territorial",
+    "loyal to her dogs"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "The PRT calls her Hellhound."
+  },
+  {
+   "cape": "Skitter",
+   "civilian": "Taylor Hebert",
+   "sex": "f",
+   "age": 15,
+   "faction": "Independent",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Master",
+     "rating": 5
+    },
+    {
+     "cls": "Thinker",
+     "rating": 1
+    }
+   ],
+   "power": "Senses and precisely controls every insect, spider and similar simple creature within a few blocks, multitasking across all of them at once.",
+   "gear": "Self-made spider-silk bodysuit with chitin armour panels, pepper spray, telescoping baton",
+   "civilian_job": "student at Winslow High",
+   "hangout": "Hebert house on the edge of the Docks / Winslow High",
+   "personality": [
+    "determined",
+    "observant",
+    "withdrawn",
+    "escalating",
+    "idealistic"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Brand-new and unnamed on 11 April; intends to be a hero, is mistaken for a villain and joins the Undersiders hoping to inform on them. Initial rating is from memory."
+  },
+  {
+   "cape": "Coil",
+   "civilian": "Thomas Calvert",
+   "sex": "m",
+   "age": 42,
+   "faction": "Coil",
+   "alignment": "villain",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Thinker",
+     "rating": 6
+    }
+   ],
+   "power": "Splits time into two parallel timelines, acts differently in each and then keeps whichever turns out better. Others perceive it as uncanny luck.",
+   "gear": "Skin-tight black suit with white snake; pistol; private army with tinker-made laser rifles",
+   "civilian_job": "PRT consultant and former PRT field commander",
+   "hangout": "hidden underground base beneath a construction site",
+   "personality": [
+    "meticulous",
+    "patient",
+    "controlling",
+    "ruthless"
+   ],
+   "lethal": true,
+   "verified": true,
+   "notes": "Secret backer of the Undersiders. Rating estimated."
+  },
+  {
+   "cape": "Faultline",
+   "civilian": "Melanie Fitts",
+   "sex": "f",
+   "age": 25,
+   "faction": "Faultline's Crew",
+   "alignment": "villain",
+   "leader": true,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 5
+    }
+   ],
+   "power": "Splits and cuts apart any non-living material she touches, opening walls, floors and weapons along fracture lines.",
+   "gear": "Riot-gear costume with welding-style mask, climbing gear, tools",
+   "civilian_job": "mercenary leader and owner of the Palanquin nightclub",
+   "hangout": "Palanquin nightclub (upstairs offices)",
+   "personality": [
+    "professional",
+    "strict",
+    "studious",
+    "protective of her crew"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Civilian name is from memory."
+  },
+  {
+   "cape": "Newter",
+   "civilian": "",
+   "sex": "m",
+   "age": 17,
+   "faction": "Faultline's Crew",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Striker",
+     "rating": 5
+    },
+    {
+     "cls": "Mover",
+     "rating": 3
+    }
+   ],
+   "power": "Orange-skinned Case 53 whose sweat and other fluids are a fast-acting hallucinogen that drops people on skin contact; agile wall-climber with a prehensile tail.",
+   "gear": "None; wears little so skin contact is easy",
+   "civilian_job": "mercenary; sells doses of his own sweat in the club",
+   "hangout": "Palanquin nightclub (VIP balcony)",
+   "personality": [
+    "laid-back",
+    "flirty",
+    "cheerful",
+    "amnesiac"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Gregor the Snail",
+   "civilian": "",
+   "sex": "m",
+   "age": 28,
+   "faction": "Faultline's Crew",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 5
+    }
+   ],
+   "power": "Obese, translucent-skinned Case 53 who sprays chemical slimes he mixes inside his body: glue, lubricant, acid, anaesthetic and more.",
+   "gear": "None",
+   "civilian_job": "mercenary",
+   "hangout": "Palanquin nightclub",
+   "personality": [
+    "gentle",
+    "thoughtful",
+    "polite",
+    "amnesiac"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Labyrinth",
+   "civilian": "Elle",
+   "sex": "f",
+   "age": 19,
+   "faction": "Faultline's Crew",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 12
+    }
+   ],
+   "power": "Overlays her surroundings with architecture from imagined worlds, slowly reshaping an area into mazes, temples or traps. Stronger days leave her less lucid.",
+   "gear": "Green robe and maze-pattern mask",
+   "civilian_job": "mercenary; former asylum patient who needs constant care",
+   "hangout": "Palanquin nightclub (upstairs)",
+   "personality": [
+    "dreamy",
+    "detached",
+    "fragile",
+    "trusting"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "First name from memory."
+  },
+  {
+   "cape": "Spitfire",
+   "civilian": "Emily",
+   "sex": "f",
+   "age": 17,
+   "faction": "Faultline's Crew",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 4
+    }
+   ],
+   "power": "Spits streams of a napalm-like liquid that ignites on contact with air.",
+   "gear": "Fire-proof suit and gas mask",
+   "civilian_job": "mercenary, newest recruit",
+   "hangout": "Palanquin nightclub",
+   "personality": [
+    "nervous",
+    "inexperienced",
+    "cautious",
+    "young"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Was also courted by the Undersiders. First name from memory."
+  },
+  {
+   "cape": "Über",
+   "civilian": "",
+   "sex": "m",
+   "age": 23,
+   "faction": "Independent",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Thinker",
+     "rating": 3
+    }
+   ],
+   "power": "Can become expertly proficient in any skill he focuses on, from martial arts to surgery, one at a time.",
+   "gear": "Video-game themed costumes and props",
+   "civilian_job": "streams video-game themed crimes online",
+   "hangout": "hidden workshop hideout in the Docks",
+   "personality": [
+    "showman",
+    "theatrical",
+    "loyal friend",
+    "attention-seeking"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Works with Leet as a duo with a few hired henchmen."
+  },
+  {
+   "cape": "Leet",
+   "civilian": "",
+   "sex": "m",
+   "age": 23,
+   "faction": "Independent",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 2
+    }
+   ],
+   "power": "Tinker who can build anything, but only once: each repeat or near-repeat is more likely to malfunction or blow up.",
+   "gear": "Unreliable one-off gadgets, camera drone, game-themed weapons",
+   "civilian_job": "streams video-game themed crimes online",
+   "hangout": "hidden workshop hideout in the Docks",
+   "personality": [
+    "nerdy",
+    "bitter",
+    "unlucky",
+    "reckless"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Circus",
+   "civilian": "",
+   "sex": "f",
+   "age": 24,
+   "faction": "Independent",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Shaker",
+     "rating": 3
+    },
+    {
+     "cls": "Mover",
+     "rating": 2
+    },
+    {
+     "cls": "Striker",
+     "rating": 2
+    }
+   ],
+   "power": "Grab-bag: a personal pocket dimension for stashing items, minor fire control, and perfect balance and aim.",
+   "gear": "Jester costume, throwing knives, sledgehammer, torches, all pulled from the pocket",
+   "civilian_job": "solo burglar who secretly takes contracts from Coil",
+   "hangout": "no fixed base; works alone at night",
+   "personality": [
+    "solitary",
+    "sly",
+    "adaptable",
+    "theatrical"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Presents as a woman in costume and a man out of it; true sex unstated. Publicly independent."
+  },
+  {
+   "cape": "Trainwreck",
+   "civilian": "",
+   "sex": "m",
+   "age": 30,
+   "faction": "Independent",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 3
+    },
+    {
+     "cls": "Brute",
+     "rating": 4
+    },
+    {
+     "cls": "Changer",
+     "rating": 1
+    }
+   ],
+   "power": "Case 53 whose body is mostly formless; lives inside a crude steam-powered armour he built that gives great strength.",
+   "gear": "Steam-driven scrap power armour",
+   "civilian_job": "mercenary thug secretly on Coil's payroll",
+   "hangout": "the Trainyard",
+   "personality": [
+    "gruff",
+    "smarter than he acts",
+    "mercenary",
+    "amnesiac"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Publicly independent."
+  },
+  {
+   "cape": "Parian",
+   "civilian": "Sabah",
+   "sex": "f",
+   "age": 21,
+   "faction": "Independent",
+   "alignment": "rogue",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Master",
+     "rating": 6
+    }
+   ],
+   "power": "Fine telekinesis over thread, cloth and other light materials, used to stitch and animate giant stuffed-animal constructs.",
+   "gear": "Doll costume with porcelain mask and wig; needles, thread and bolts of cloth",
+   "civilian_job": "fashion design student who does promotional shows for shops",
+   "hangout": "the Boardwalk and Lord Street Market / the university",
+   "personality": [
+    "gentle",
+    "conflict-averse",
+    "creative",
+    "reserved"
+   ],
+   "lethal": false,
+   "verified": true
+  },
+  {
+   "cape": "Chariot",
+   "civilian": "Trevor",
+   "sex": "m",
+   "age": 15,
+   "faction": "Coil",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Tinker",
+     "rating": 4
+    }
+   ],
+   "power": "Tinker specialising in transport and mobility gear.",
+   "gear": "Jet skates and speed suit prototypes",
+   "civilian_job": "teenager living in a Docks tenement; being groomed by Coil as a future mole in the Wards",
+   "hangout": "brick tenement in the Docks",
+   "personality": [
+    "greedy",
+    "shy",
+    "impressionable"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Unknown to the public in April 2011. First name from memory."
+  },
+  {
+   "cape": "Dinah Alcott",
+   "civilian": "Dinah Alcott",
+   "sex": "f",
+   "age": 12,
+   "faction": "Independent",
+   "alignment": "rogue",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Thinker",
+     "rating": 8
+    }
+   ],
+   "power": "Sees the odds of any future outcome as precise percentages; each question costs her a worsening headache.",
+   "gear": "None",
+   "civilian_job": "middle-school student, niece of the mayor",
+   "hangout": "Alcott family home in a wealthy neighbourhood",
+   "personality": [
+    "quiet",
+    "precise",
+    "frightened",
+    "brave"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Not publicly known as a parahuman; kidnapped for Coil on 14 April. No cape name. Rating estimated."
+  },
+  {
+   "cape": "Trickster",
+   "civilian": "Francis Krouse",
+   "sex": "m",
+   "age": 19,
+   "faction": "Coil",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Mover",
+     "rating": 5
+    },
+    {
+     "cls": "Shaker",
+     "rating": 3
+    }
+   ],
+   "power": "Swaps the positions of any two things of similar mass that he can see, people included.",
+   "gear": "Top hat and red-black costume",
+   "civilian_job": "nomadic villain, leader of the Travelers",
+   "hangout": "moving between safehouses; later Coil's base",
+   "personality": [
+    "cocky",
+    "reckless",
+    "obsessive",
+    "secretive"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "The Travelers are hired by Coil between 14 and 22 April; not present on 11 April. Civilian name from memory."
+  },
+  {
+   "cape": "Sundancer",
+   "civilian": "Marissa Newland",
+   "sex": "f",
+   "age": 19,
+   "faction": "Coil",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 8
+    },
+    {
+     "cls": "Shaker",
+     "rating": 4
+    }
+   ],
+   "power": "Creates and steers a miniature sun that can grow from fist-sized to building-sized; too deadly to use freely on people.",
+   "gear": "None",
+   "civilian_job": "nomadic villain with the Travelers",
+   "hangout": "moving between safehouses; later Coil's base",
+   "personality": [
+    "reluctant",
+    "lonely",
+    "conscientious",
+    "afraid of her power"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Arrives mid-April. Civilian name from memory."
+  },
+  {
+   "cape": "Ballistic",
+   "civilian": "Luke",
+   "sex": "m",
+   "age": 19,
+   "faction": "Coil",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Blaster",
+     "rating": 6
+    },
+    {
+     "cls": "Striker",
+     "rating": 3
+    }
+   ],
+   "power": "Anything inorganic he touches is launched away at enormous speed, from marbles to cars.",
+   "gear": "Armoured football-style costume, bags of ball bearings",
+   "civilian_job": "nomadic villain with the Travelers",
+   "hangout": "moving between safehouses; later Coil's base",
+   "personality": [
+    "blunt",
+    "frustrated",
+    "athletic",
+    "fed up"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Arrives mid-April. Civilian name from memory."
+  },
+  {
+   "cape": "Genesis",
+   "civilian": "Jess",
+   "sex": "f",
+   "age": 19,
+   "faction": "Coil",
+   "alignment": "villain",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Master",
+     "rating": 6
+    },
+    {
+     "cls": "Changer",
+     "rating": 5
+    }
+   ],
+   "power": "Falls asleep and projects a solid body of any design she imagines, one at a time; her real body is helpless meanwhile.",
+   "gear": "Wheelchair in civilian life",
+   "civilian_job": "nomadic villain with the Travelers",
+   "hangout": "moving between safehouses; later Coil's base",
+   "personality": [
+    "thoughtful",
+    "guarded",
+    "creative",
+    "conscience of the team"
+   ],
+   "lethal": false,
+   "verified": true,
+   "notes": "Arrives mid-April. Civilian name from memory."
+  },
+  {
+   "cape": "Chubster",
+   "civilian": "",
+   "sex": "m",
+   "age": 40,
+   "faction": "Independent",
+   "alignment": "hero",
+   "leader": false,
+   "classes": [
+    {
+     "cls": "Brute",
+     "rating": 3
+    }
+   ],
+   "power": "Very heavy man who becomes extremely hard to move or hurt.",
+   "gear": "None",
+   "civilian_job": "unknown",
+   "hangout": "independent patrols",
+   "personality": [
+    "minor",
+    "stubborn",
+    "good-natured"
+   ],
+   "lethal": false,
+   "verified": false,
+   "notes": "Minor independent hero; that he is Brockton Bay based in April 2011 is from memory and uncertain."
+  }
+ ],
+ "civilians": [
+  {
+   "name": "Danny Hebert",
+   "sex": "m",
+   "age": 44,
+   "job": "head of hiring and union spokesman",
+   "workplace": "Dockworkers Association",
+   "notes": "Taylor's widowed father, a tall thin man with a buried temper who campaigns to reopen the ferry.",
+   "verified": true
+  },
+  {
+   "name": "Emma Barnes",
+   "sex": "f",
+   "age": 15,
+   "job": "student and part-time teen model",
+   "workplace": "Winslow High",
+   "notes": "Taylor's former best friend turned chief tormentor, close to Sophia Hess.",
+   "verified": true
+  },
+  {
+   "name": "Madison Clements",
+   "sex": "f",
+   "age": 15,
+   "job": "student",
+   "workplace": "Winslow High",
+   "notes": "The petite, cute-acting third member of the trio that bullies Taylor.",
+   "verified": true
+  },
+  {
+   "name": "Alan Barnes",
+   "sex": "m",
+   "age": 44,
+   "job": "divorce lawyer",
+   "workplace": "law firm Downtown",
+   "notes": "Emma's red-haired father, an old friend of Danny and a work acquaintance of Carol Dallon who shields his daughter.",
+   "verified": true
+  },
+  {
+   "name": "Zoe Barnes",
+   "sex": "f",
+   "age": 42,
+   "job": "homemaker",
+   "workplace": "Barnes house",
+   "notes": "Emma's mother.",
+   "verified": true
+  },
+  {
+   "name": "Anne Barnes",
+   "sex": "f",
+   "age": 19,
+   "job": "university student",
+   "workplace": "the university",
+   "notes": "Emma's older sister.",
+   "verified": true
+  },
+  {
+   "name": "Emily Piggot",
+   "sex": "f",
+   "age": 45,
+   "job": "Director of PRT East-North-East",
+   "workplace": "PRT HQ, Downtown",
+   "notes": "Overweight ex-field agent on dialysis after surviving the Ellisburg disaster; hard-nosed and distrustful of parahumans.",
+   "verified": true
+  },
+  {
+   "name": "Roy Christner",
+   "sex": "m",
+   "age": 50,
+   "job": "Mayor of Brockton Bay",
+   "workplace": "City Hall, Downtown",
+   "notes": "The mayor, father of the hero Triumph and uncle of Dinah Alcott.",
+   "verified": true
+  },
+  {
+   "name": "Thomas Calvert",
+   "sex": "m",
+   "age": 42,
+   "job": "PRT consultant, former field commander",
+   "workplace": "PRT HQ, Downtown (contract work)",
+   "notes": "Tall, thin Ellisburg survivor who is respected in PRT circles; secretly the villain Coil.",
+   "verified": true
+  },
+  {
+   "name": "Kurt",
+   "sex": "m",
+   "age": 45,
+   "job": "dockworker",
+   "workplace": "Dockworkers Association",
+   "notes": "Burly friend and co-worker of Danny, married to Lacey.",
+   "verified": false
+  },
+  {
+   "name": "Lacey",
+   "sex": "f",
+   "age": 43,
+   "job": "dockworker",
+   "workplace": "Dockworkers Association",
+   "notes": "Tough friend of the Heberts who was close to Taylor's mother.",
+   "verified": false
+  },
+  {
+   "name": "Gerry",
+   "sex": "m",
+   "age": 40,
+   "job": "former dockworker",
+   "workplace": "unemployed",
+   "notes": "Big ex-colleague of Danny, rumoured to have taken henchman work for Uber and Leet.",
+   "verified": true
+  },
+  {
+   "name": "Greg Veder",
+   "sex": "m",
+   "age": 15,
+   "job": "student",
+   "workplace": "Winslow High",
+   "notes": "Awkward, talkative classmate of Taylor who posts on Parahumans Online as XxVoid_CowboyxX.",
+   "verified": true
+  },
+  {
+   "name": "Charlotte",
+   "sex": "f",
+   "age": 16,
+   "job": "student",
+   "workplace": "Winslow High",
+   "notes": "Classmate who knows about the bullying but stays out of it.",
+   "verified": true
+  },
+  {
+   "name": "Sparky",
+   "sex": "m",
+   "age": 15,
+   "job": "student",
+   "workplace": "Winslow High",
+   "notes": "Spacey drummer classmate grouped with Taylor and Greg for class projects.",
+   "verified": true
+  },
+  {
+   "name": "Julia",
+   "sex": "f",
+   "age": 15,
+   "job": "student",
+   "workplace": "Winslow High",
+   "notes": "Hanger-on in Emma's social circle.",
+   "verified": true
+  },
+  {
+   "name": "Mr. Gladly",
+   "sex": "m",
+   "age": 28,
+   "job": "World Issues teacher",
+   "workplace": "Winslow High",
+   "notes": "Young teacher who wants to be liked by the popular kids and looks away from the bullying.",
+   "verified": true
+  },
+  {
+   "name": "Mrs. Knott",
+   "sex": "f",
+   "age": 45,
+   "job": "computer and homeroom teacher",
+   "workplace": "Winslow High",
+   "notes": "Taylor's homeroom teacher, tall and broad-shouldered, fair but hands-off.",
+   "verified": true
+  },
+  {
+   "name": "Mr. Quinlan",
+   "sex": "m",
+   "age": 55,
+   "job": "math teacher",
+   "workplace": "Winslow High",
+   "notes": "Taylor's math teacher, who sides with the school at the bullying meeting.",
+   "verified": true
+  },
+  {
+   "name": "Principal Blackwell",
+   "sex": "f",
+   "age": 48,
+   "job": "principal",
+   "workplace": "Winslow High",
+   "notes": "Thin, severe woman with a blond bowl cut who protects the school rather than Taylor.",
+   "verified": true
+  },
+  {
+   "name": "Theo Anders",
+   "sex": "m",
+   "age": 15,
+   "job": "student",
+   "workplace": "Immaculata High (estimated)",
+   "notes": "Kaiser's soft-spoken, heavyset son from his first marriage, often babysitting his half-sister Aster for Kayden.",
+   "verified": true
+  },
+  {
+   "name": "Aster Anders",
+   "sex": "f",
+   "age": 1,
+   "job": "infant",
+   "workplace": "Kayden's apartment",
+   "notes": "Baby daughter of Purity and Kaiser.",
+   "verified": true
+  },
+  {
+   "name": "Aisha Laborn",
+   "sex": "f",
+   "age": 13,
+   "job": "student, frequent truant",
+   "workplace": "living with her mother",
+   "notes": "Brian Laborn's rebellious younger sister; she has no powers yet in April 2011.",
+   "verified": true
+  },
+  {
+   "name": "Doctor Q",
+   "sex": "m",
+   "age": 55,
+   "job": "back-alley doctor",
+   "workplace": "unlicensed clinic",
+   "notes": "Discreet physician who patches up villains and Coil's people for cash.",
+   "verified": true
+  },
+  {
+   "name": "Sierra Kiley",
+   "sex": "f",
+   "age": 21,
+   "job": "university student",
+   "workplace": "the university",
+   "notes": "Ordinary resident who becomes important only after Leviathan.",
+   "verified": true
+  },
+  {
+   "name": "Sophia Hess's PRT handler",
+   "sex": "f",
+   "age": 30,
+   "job": "PRT caseworker",
+   "workplace": "PRT HQ, Downtown",
+   "notes": "Represents Sophia at school meetings and covers for her; unnamed in canon.",
+   "verified": false
+  },
+  {
+   "name": "Somer's Rock staff",
+   "sex": "f",
+   "age": 25,
+   "job": "server (with her twin bartender brothers)",
+   "workplace": "Somer's Rock",
+   "notes": "A deaf waitress and her brothers run the neutral-ground pub and never repeat what they see.",
+   "verified": true
+  }
+ ],
+ "locations": [
+  {
+   "name": "Docks",
+   "kind": "district",
+   "district": "",
+   "geography": "North end of the city, inland and west of the Boardwalk; its southern edge meets Downtown.",
+   "description": "Decaying sprawl of empty warehouses, factories, garages and crowded tenements, many without power. Home to the poor, squatters and gang members; the black-market centre of the city.",
+   "controlled_by": "ABB (protection rackets), with Merchants and others on the fringes",
+   "adjacent": [
+    "Boardwalk",
+    "Downtown",
+    "Trainyard",
+    "Boat Graveyard",
+    "Docks residential fringe",
+    "Undersiders' loft (Redmond Welding)",
+    "Dockworkers Association",
+    "North ferry station"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Boardwalk",
+   "kind": "district",
+   "district": "",
+   "geography": "Narrow strip along the bay on the eastern edge of the Docks, facing the Protectorate rig.",
+   "description": "Wooden promenade of upscale shops, cafes and restaurants aimed at tourists, with beaches below. Hired private enforcers in uniform quietly remove troublemakers.",
+   "controlled_by": "Boardwalk shop owners' private enforcers",
+   "adjacent": [
+    "Docks",
+    "Lord Street Market",
+    "Beach",
+    "Downtown",
+    "Protectorate HQ (the Rig)"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Downtown",
+   "kind": "district",
+   "district": "",
+   "geography": "Central and southern part of the city, on the coast near the south ferry station; south of the Docks.",
+   "description": "Wide streets and skyscrapers every other lot: banks, tech firms, offices and the nicer housing to the south-east. Empire tags show up here and there.",
+   "controlled_by": "Empire Eighty-Eight (informal dominance); Coil's influence growing",
+   "adjacent": [
+    "Docks",
+    "Docks residential fringe",
+    "The Towers",
+    "Lord Street",
+    "PRT HQ",
+    "Arcadia High",
+    "Brockton Bay Central Bank",
+    "Medhall building",
+    "Forsberg Gallery",
+    "South ferry station",
+    "Boardwalk"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Trainyard",
+   "kind": "district",
+   "district": "Docks",
+   "geography": "North end, inside the Docks on the side away from the Boardwalk.",
+   "description": "Fenced lots of rusting boxcars, overgrown track, scrap piles and a station that still sees the occasional train. Vagrants and the odd villain shelter here.",
+   "controlled_by": "",
+   "adjacent": [
+    "Docks",
+    "Storage facility",
+    "Boat Graveyard"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Captain's Hill",
+   "kind": "district",
+   "district": "",
+   "geography": "Western edge of the city at the foot of the hills and mountains.",
+   "description": "A hill with a view over the whole bay, surrounded by quieter residential streets; mostly families and picnickers.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "Western hills and outskirts"
+   ],
+   "verified": true
+  },
+  {
+   "name": "The Towers",
+   "kind": "district",
+   "district": "Downtown",
+   "geography": "Heart of Downtown, spread over several small hills.",
+   "description": "Cluster of expensive condominium and apartment high-rises, regarded as the nicest address in the city. Wealthy families live here, including several capes in civilian guise.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "Immaculata High",
+    "Dallon house",
+    "Anders penthouse"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Lord Street",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Main artery running the length of the city, following the curve of the bay from the south through Downtown to the north end.",
+   "description": "Broad commercial road that every bus route touches; the PRT building fronts on it.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "PRT HQ",
+    "Docks",
+    "Lord Street Market"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Lord Street Market",
+   "kind": "site",
+   "district": "",
+   "geography": "North end, past the Boardwalk and south of the Boat Graveyard, beside a beach and nearly out of town.",
+   "description": "Open-air lot of rentable stalls selling food, crafts, pets, electronics and cape merchandise, busiest at weekends. The Boardwalk's enforcers keep it orderly.",
+   "controlled_by": "Boardwalk enforcers",
+   "adjacent": [
+    "Boardwalk",
+    "Fugly Bob's",
+    "Boat Graveyard",
+    "Beach"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Fugly Bob's",
+   "kind": "site",
+   "district": "Lord Street Market",
+   "geography": "On the edge of the Market, overlooking the beach.",
+   "description": "Half shack, half bar burger joint famous for enormous greasy burgers, including a challenge burger that is free if finished. Locals and teenagers fill it.",
+   "controlled_by": "",
+   "adjacent": [
+    "Lord Street Market",
+    "Beach"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Boat Graveyard",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Northernmost stretch of coast, north of the Market, overlooked by a hill.",
+   "description": "Dozens of rusting, half-sunk ships left since a protest blockade when shipping collapsed; officially called Lord's Port. Scavengers and people who want privacy come here.",
+   "controlled_by": "",
+   "adjacent": [
+    "Lord Street Market",
+    "Docks",
+    "Trainyard"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Beach",
+   "kind": "site",
+   "district": "Boardwalk",
+   "geography": "Sand along the bay below the Boardwalk and beside the Market.",
+   "description": "Clean tourist beach near the Boardwalk, shabbier and emptier further north toward the Docks.",
+   "controlled_by": "",
+   "adjacent": [
+    "Boardwalk",
+    "Lord Street Market",
+    "Fugly Bob's"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Protectorate HQ (the Rig)",
+   "kind": "site",
+   "district": "",
+   "geography": "Floating in the bay offshore, visible from the Boardwalk and most of the Docks.",
+   "description": "Converted oil rig rebuilt into a gleaming base with arches and spires, wrapped in a forcefield bubble and armed with missile defences. Reached by a hard-light bridge; the adult heroes live and work here.",
+   "controlled_by": "Protectorate ENE",
+   "adjacent": [
+    "Boardwalk",
+    "North ferry station"
+   ],
+   "verified": true
+  },
+  {
+   "name": "PRT HQ",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "On Lord Street in Downtown, close to Arcadia High.",
+   "description": "Glass-fronted office block with barred windows and a shield logo, housing PRT squads, holding cells, a small clinic, a parking garage of containment vans, a helipad and a tourist lobby with gift shop. The Wards' base is inside.",
+   "controlled_by": "PRT ENE",
+   "adjacent": [
+    "Lord Street",
+    "Downtown",
+    "Arcadia High",
+    "Wards base"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Wards base",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Secure level inside the PRT HQ.",
+   "description": "Domed common room with movable partitions, monitoring consoles, bunks and Kid Win's workshop, entered through a retina-scan elevator. The teenage heroes spend their shifts here.",
+   "controlled_by": "Wards ENE",
+   "adjacent": [
+    "PRT HQ"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Winslow High",
+   "kind": "site",
+   "district": "Docks residential fringe",
+   "geography": "South-west side of the Docks area, about half an hour's walk from Downtown.",
+   "description": "Run-down, overcrowded public school with gang colours in the halls, drug dealing in the washrooms and staff who have given up. ABB and Empire recruits both attend.",
+   "controlled_by": "contested by ABB and Empire youth",
+   "adjacent": [
+    "Docks residential fringe",
+    "Hebert house",
+    "Downtown"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Arcadia High",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Near the centre of Downtown, close to the PRT HQ.",
+   "description": "The best public school in the city, a four-storey complex with strict admissions and a signal-blocking cage. Most Wards attend in secret, and New Wave's teens attend openly.",
+   "controlled_by": "",
+   "adjacent": [
+    "PRT HQ",
+    "Downtown",
+    "Dinah's middle school"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Immaculata High",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "South end of the city, south-west of the Towers.",
+   "description": "Private Christian school in uniforms, known as the rich kids' school.",
+   "controlled_by": "",
+   "adjacent": [
+    "The Towers",
+    "Dallon house"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Clarendon High",
+   "kind": "site",
+   "district": "",
+   "geography": "Elsewhere in the city; position not given in canon.",
+   "description": "A fourth ordinary high school, mentioned only by name.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Brockton Bay Central Bank",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Downtown financial core.",
+   "description": "Largest bank in the city, a stone-fronted building with a marble lobby and a vault below. Staff, customers and the occasional hero's relative are inside on a weekday.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "Lord Street",
+    "Arcadia High"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Brockton Bay Central Library",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Downtown.",
+   "description": "Main public library with free computers, where Taylor does her research and browsing.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "Arcadia High"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Medhall building",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Unassuming office tower Downtown.",
+   "description": "Headquarters of the Medhall pharmaceutical company with a black-crown logo. A legitimate employer that doubles as the Empire's money laundry and Kaiser's office.",
+   "controlled_by": "Empire Eighty-Eight",
+   "adjacent": [
+    "Downtown",
+    "The Towers"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Anders penthouse",
+   "kind": "site",
+   "district": "The Towers",
+   "geography": "Top floor of a Downtown high-rise.",
+   "description": "Max Anders' luxurious apartment where the Empire's inner circle sometimes meets.",
+   "controlled_by": "Empire Eighty-Eight",
+   "adjacent": [
+    "The Towers",
+    "Medhall building"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Forsberg Gallery",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Prominent on the Downtown skyline.",
+   "description": "Twenty-six storey art gallery of stacked, offset glass-and-steel sections lit by colour-changing spotlights. Hosts society events such as the PRT fundraiser.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "PRT HQ"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Somer's Rock",
+   "kind": "site",
+   "district": "",
+   "geography": "Middle of a long street of hole-in-the-wall businesses in a shabby neighbourhood.",
+   "description": "Dim, dingy pub with peeling paint, barred windows and dark green curtains, run by a deaf waitress and her bartender brothers. The agreed neutral ground for villain summits.",
+   "controlled_by": "neutral ground",
+   "adjacent": [
+    "Docks",
+    "Downtown"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Palanquin",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "A nightlife block on the edge of Downtown toward the Docks.",
+   "description": "Popular nightclub with a long queue, thumping dance floor and a guarded balcony and upstairs rooms. Faultline owns it and her crew lives above it.",
+   "controlled_by": "Faultline's Crew",
+   "adjacent": [
+    "Downtown",
+    "Docks"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Undersiders' loft (Redmond Welding)",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Deep in the Docks among other derelict industrial buildings.",
+   "description": "Shuttered welding factory with rusted machinery on the ground floor and a comfortable hidden loft above: couches, TVs, kitchen and bedrooms.",
+   "controlled_by": "Undersiders",
+   "adjacent": [
+    "Docks",
+    "Trainyard",
+    "Bitch's dog shelter"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Bitch's dog shelter",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "An abandoned building a walk from the loft.",
+   "description": "Half-collapsed structure where Rachel keeps and trains dozens of rescued strays.",
+   "controlled_by": "Undersiders",
+   "adjacent": [
+    "Undersiders' loft (Redmond Welding)",
+    "Docks"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Storage facility",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "A few blocks from the Trainyard.",
+   "description": "Rows of concrete storage lockers once used as illegal housing, now mostly abandoned. The Undersiders stash loot here and Bakuda ambushes them among the units.",
+   "controlled_by": "",
+   "adjacent": [
+    "Trainyard",
+    "Docks"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Shipping container blocks",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Scattered lots around the north end.",
+   "description": "Stacks of old containers left from a banned experiment in cheap housing; squatters and dealers use them.",
+   "controlled_by": "",
+   "adjacent": [
+    "Docks",
+    "Boat Graveyard"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Dockworkers Association",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Near the working piers at the edge of the Docks.",
+   "description": "Modest union office and hiring hall where the remaining longshoremen wait for scarce jobs. Danny Hebert works here.",
+   "controlled_by": "Dockworkers Association (union)",
+   "adjacent": [
+    "Docks",
+    "North ferry station",
+    "Hebert house"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Docks residential fringe",
+   "kind": "district",
+   "district": "Docks",
+   "geography": "South-west side of the Docks, shading into Downtown.",
+   "description": "Older houses, small shops, schools and diners in a tired but liveable working-class area.",
+   "controlled_by": "",
+   "adjacent": [
+    "Docks",
+    "Downtown",
+    "Winslow High",
+    "Hebert house",
+    "Weymouth Shopping Center"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Hebert house",
+   "kind": "site",
+   "district": "Docks residential fringe",
+   "geography": "On the periphery of the Docks, about an hour from Downtown by bus.",
+   "description": "Ageing two-storey family home with a rotten front step and a basement where Taylor hides her costume.",
+   "controlled_by": "",
+   "adjacent": [
+    "Docks residential fringe",
+    "Winslow High",
+    "Weymouth Shopping Center"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Barnes house",
+   "kind": "site",
+   "district": "Docks residential fringe",
+   "geography": "A better street within reach of the Heberts' neighbourhood.",
+   "description": "Comfortable middle-class home of Alan Barnes and his family.",
+   "controlled_by": "",
+   "adjacent": [
+    "Docks residential fringe",
+    "Hebert house"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Weymouth Shopping Center",
+   "kind": "site",
+   "district": "Docks residential fringe",
+   "geography": "The nearest mall to the Hebert house.",
+   "description": "Ordinary indoor mall with chain stores and a food court, full of teenagers at weekends.",
+   "controlled_by": "",
+   "adjacent": [
+    "Hebert house",
+    "Docks residential fringe",
+    "Downtown"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Hillside Mall",
+   "kind": "site",
+   "district": "",
+   "geography": "Another shopping mall; exact position not given.",
+   "description": "Larger mall named on the wiki's list of city locations.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "Captain's Hill"
+   ],
+   "verified": true
+  },
+  {
+   "name": "North ferry station",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "On the water at the north end.",
+   "description": "Boarded-up terminal of the cross-bay ferry that once carried workers; closed for years.",
+   "controlled_by": "",
+   "adjacent": [
+    "Docks",
+    "Dockworkers Association",
+    "Boardwalk"
+   ],
+   "verified": false
+  },
+  {
+   "name": "South ferry station",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "On the coast where Downtown meets the bay.",
+   "description": "The other end of the defunct ferry line, a quiet stretch of waterfront.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "North ferry station"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Brockton General Hospital",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Central city.",
+   "description": "Main hospital, where Panacea volunteers and where capes and bombing victims are treated.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "PRT HQ"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Brockton Bay University",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "In the city proper, a bus ride from the Docks.",
+   "description": "Mid-sized university with a noted architecture programme; Taylor's late mother taught English here and Parian studies fashion.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "The Towers"
+   ],
+   "verified": false
+  },
+  {
+   "name": "City Hall",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Civic centre of Downtown.",
+   "description": "Seat of the mayor and council.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "PRT HQ"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Coil's underground base",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Hidden beneath a construction site, reached through a parking garage.",
+   "description": "Multi-level concrete bunker disguised as an Endbringer shelter under construction, with barracks, an armoury, vault doors and cells. Staffed by uniformed mercenaries.",
+   "controlled_by": "Coil",
+   "adjacent": [
+    "Downtown",
+    "Docks"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Dallon house",
+   "kind": "site",
+   "district": "The Towers",
+   "geography": "Well-off neighbourhood south-west of the Towers.",
+   "description": "Large suburban home of Carol, Mark, Victoria and Amy.",
+   "controlled_by": "New Wave",
+   "adjacent": [
+    "The Towers",
+    "Immaculata High",
+    "Pelham house"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Pelham house",
+   "kind": "site",
+   "district": "The Towers",
+   "geography": "Same area as the Dallons.",
+   "description": "Home of Sarah, Neil, Crystal and Eric Pelham; their identities are public.",
+   "controlled_by": "New Wave",
+   "adjacent": [
+    "Dallon house",
+    "The Towers"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Dinah's middle school",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Near Arcadia High.",
+   "description": "Middle school attended by Dinah Alcott.",
+   "controlled_by": "",
+   "adjacent": [
+    "Arcadia High",
+    "Downtown"
+   ],
+   "verified": true
+  },
+  {
+   "name": "ABB gambling dens and brothels",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Scattered through the eastern Docks.",
+   "description": "Back-room casinos, massage parlours and safehouses run under Lung's protection, guarded by members in red and green.",
+   "controlled_by": "ABB",
+   "adjacent": [
+    "Docks",
+    "Boardwalk"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Bakuda's workshop",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Concealed in ABB territory.",
+   "description": "Cluttered bomb-making lab where conscripts are fitted with implants.",
+   "controlled_by": "ABB",
+   "adjacent": [
+    "Docks",
+    "ABB gambling dens and brothels"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Empire fighting pits",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Hidden basements and warehouses on Empire turf.",
+   "description": "Illegal venues for dog fights and human pit fights run by Hookwolf's people, drawing gamblers and recruits.",
+   "controlled_by": "Empire Eighty-Eight",
+   "adjacent": [
+    "Downtown",
+    "Docks"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Merchants' hideout",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Slum fringe at the north end of the city.",
+   "description": "Abandoned tourist shop and nearby squats littered with needles, where the Merchants deal and party.",
+   "controlled_by": "Merchants",
+   "adjacent": [
+    "Docks",
+    "Boat Graveyard",
+    "Trainyard"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Uber and Leet's hideout",
+   "kind": "site",
+   "district": "Docks",
+   "geography": "Unmarked building in the Docks.",
+   "description": "Workshop full of half-finished gadgets, costumes and streaming equipment.",
+   "controlled_by": "Uber and Leet",
+   "adjacent": [
+    "Docks"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Brian's apartment",
+   "kind": "site",
+   "district": "Downtown",
+   "geography": "Modern building on the Downtown side.",
+   "description": "Clean, sparsely furnished flat Brian rents to prove he can house his sister.",
+   "controlled_by": "",
+   "adjacent": [
+    "Downtown",
+    "Docks residential fringe"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ruby Dreams casino",
+   "kind": "site",
+   "district": "",
+   "geography": "Just beyond the city outskirts.",
+   "description": "Casino the Undersiders robbed about five weeks before the bank job.",
+   "controlled_by": "",
+   "adjacent": [
+    "Western hills and outskirts"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Western hills and outskirts",
+   "kind": "district",
+   "district": "",
+   "geography": "Wooded hills and mountains ringing the city on its landward sides, mainly the west.",
+   "description": "Thin suburbs, side roads and forest; few people and no gang presence.",
+   "controlled_by": "",
+   "adjacent": [
+    "Captain's Hill",
+    "Ruby Dreams casino",
+    "Downtown"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Endbringer shelters",
+   "kind": "site",
+   "district": "",
+   "geography": "Distributed across every district.",
+   "description": "Reinforced underground bunkers with vault doors, marked by signs and opened when the sirens sound.",
+   "controlled_by": "city / PRT",
+   "adjacent": [
+    "Downtown",
+    "Docks",
+    "Boardwalk"
+   ],
+   "verified": false
+  }
+ ],
+ "gangs": [
+  {
+   "name": "Empire Eighty-Eight",
+   "leader": "Kaiser",
+   "territory": [
+    "Downtown",
+    "Medhall building",
+    "Empire fighting pits",
+    "Anders penthouse"
+   ],
+   "activities": [
+    "protection rackets",
+    "dog and pit fighting",
+    "drug and weapons trade",
+    "hate crimes",
+    "money laundering through Medhall",
+    "recruiting capes from out of state"
+   ],
+   "ideology": "White-supremacist organisation founded by Allfather that offers disaffected whites belonging and demands violence against minorities to rise in rank.",
+   "rivals": [
+    "Azn Bad Boys",
+    "Protectorate ENE",
+    "New Wave",
+    "Coil",
+    "Merchants"
+   ],
+   "size_estimate": "large",
+   "verified": true
+  },
+  {
+   "name": "Azn Bad Boys",
+   "leader": "Lung",
+   "territory": [
+    "Docks",
+    "ABB gambling dens and brothels",
+    "Bakuda's workshop"
+   ],
+   "activities": [
+    "protection rackets",
+    "theft",
+    "contraband",
+    "prostitution and sex trafficking",
+    "gambling",
+    "forced recruitment"
+   ],
+   "ideology": "Pan-Asian gang held together by fear of Lung, who conquered smaller gangs and presses every young Asian in his area to join; colours are red and green.",
+   "rivals": [
+    "Empire Eighty-Eight",
+    "Protectorate ENE",
+    "Undersiders",
+    "Merchants",
+    "Coil"
+   ],
+   "size_estimate": "large",
+   "verified": true
+  },
+  {
+   "name": "Archer's Bridge Merchants",
+   "leader": "Skidmark",
+   "territory": [
+    "Merchants' hideout",
+    "Shipping container blocks"
+   ],
+   "activities": [
+    "selling drugs",
+    "using drugs",
+    "petty theft",
+    "scavenging"
+   ],
+   "ideology": "No cause beyond getting high and getting paid; a refuge for addicts and the people nobody else wants.",
+   "rivals": [
+    "Azn Bad Boys",
+    "Empire Eighty-Eight",
+    "Protectorate ENE"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Undersiders",
+   "leader": "none (Grue leads in the field; decisions by vote)",
+   "territory": [
+    "Undersiders' loft (Redmond Welding)",
+    "Bitch's dog shelter",
+    "Storage facility"
+   ],
+   "activities": [
+    "heists",
+    "smash-and-grab robberies",
+    "jobs for an anonymous backer"
+   ],
+   "ideology": "Teenage thieves who avoid fights, hold no turf and take a monthly retainer from a hidden boss.",
+   "rivals": [
+    "Azn Bad Boys",
+    "Protectorate ENE",
+    "Wards ENE",
+    "Uber and Leet"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Coil's Organization",
+   "leader": "Coil",
+   "territory": [
+    "Coil's underground base",
+    "Downtown"
+   ],
+   "activities": [
+    "mercenary operations",
+    "espionage and infiltration of the PRT",
+    "drug trade",
+    "buying property",
+    "funding other villain teams",
+    "kidnapping"
+   ],
+   "ideology": "A personal instrument for one man's plan to quietly take over the whole city and run it efficiently.",
+   "rivals": [
+    "Empire Eighty-Eight",
+    "Azn Bad Boys",
+    "Protectorate ENE"
+   ],
+   "size_estimate": "medium",
+   "verified": true
+  },
+  {
+   "name": "Faultline's Crew",
+   "leader": "Faultline",
+   "territory": [
+    "Palanquin"
+   ],
+   "activities": [
+    "mercenary contracts, often out of town",
+    "running a nightclub",
+    "researching Case 53 origins"
+   ],
+   "ideology": "Professional mercenaries who take any paid job short of murder and never fight for free.",
+   "rivals": [
+    "Protectorate ENE",
+    "Coil"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Uber and Leet",
+   "leader": "Uber",
+   "territory": [
+    "Uber and Leet's hideout"
+   ],
+   "activities": [
+    "video-game themed robberies and stunts streamed online",
+    "hiring out as henchmen-employers"
+   ],
+   "ideology": "Crime as entertainment for web viewers.",
+   "rivals": [
+    "Undersiders",
+    "Wards ENE"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Travelers",
+   "leader": "Trickster",
+   "territory": [
+    "Coil's underground base"
+   ],
+   "activities": [
+    "nomadic robberies",
+    "contract work for Coil"
+   ],
+   "ideology": "A close group of friends moving city to city, searching for a way to help a hidden teammate.",
+   "rivals": [
+    "Protectorate ENE",
+    "Azn Bad Boys"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Protectorate ENE",
+   "leader": "Armsmaster",
+   "territory": [
+    "Protectorate HQ (the Rig)",
+    "PRT HQ",
+    "Boardwalk"
+   ],
+   "activities": [
+    "patrols",
+    "arrests",
+    "public relations",
+    "Endbringer response"
+   ],
+   "ideology": "Government-sponsored adult heroes under PRT oversight.",
+   "rivals": [
+    "Empire Eighty-Eight",
+    "Azn Bad Boys",
+    "Merchants",
+    "Coil",
+    "Undersiders"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Wards ENE",
+   "leader": "Aegis",
+   "territory": [
+    "Wards base",
+    "PRT HQ",
+    "Arcadia High"
+   ],
+   "activities": [
+    "supervised patrols",
+    "training",
+    "publicity events"
+   ],
+   "ideology": "Under-18 hero programme meant to train young parahumans safely.",
+   "rivals": [
+    "Undersiders",
+    "Uber and Leet",
+    "Empire Eighty-Eight"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "New Wave",
+   "leader": "Lady Photon",
+   "territory": [
+    "Dallon house",
+    "Pelham house"
+   ],
+   "activities": [
+    "independent heroics",
+    "healing at hospitals",
+    "advocacy for unmasked heroes"
+   ],
+   "ideology": "Two related families who fight crime with public identities to promote accountability for capes; formerly the Brockton Bay Brigade.",
+   "rivals": [
+    "Empire Eighty-Eight",
+    "Azn Bad Boys"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  },
+  {
+   "name": "Boardwalk enforcers",
+   "leader": "shop owners' association",
+   "territory": [
+    "Boardwalk",
+    "Lord Street Market"
+   ],
+   "activities": [
+    "private security",
+    "ejecting vagrants and shoplifters"
+   ],
+   "ideology": "Unpowered hired muscle protecting tourist business.",
+   "rivals": [
+    "Merchants",
+    "Azn Bad Boys"
+   ],
+   "size_estimate": "small",
+   "verified": true
+  }
+ ],
+ "power_classes": [
+  {
+   "cls": "Mover",
+   "definition": "Powers that give unusual speed or ways of getting around, for the user or others.",
+   "typical_triggers": "A need to escape: being trapped, chased, hounded or stuck in a rut, with the form of the threat shaping the form of travel.",
+   "subtypes": [
+    "Blink: teleports without crossing the space between",
+    "Fly: takes to the air, often paired with toughness",
+    "Run: raw ground speed",
+    "Rocket: fast straight-line charge with poor steering",
+    "Hurdle: enhanced running, leaping and climbing",
+    "Slip: short evasive dodges rather than distance",
+    "Ride: travels on a created or controlled vehicle",
+    "Gate: makes portals or launch points others can use",
+    "Conveyance: slow set-up, moves groups a long way",
+    "Takeoff / Transit / Terminus: side effect on leaving, in motion or on arrival"
+   ],
+   "example_capes": [
+    "Velocity",
+    "Oni Lee",
+    "Trickster",
+    "Strider",
+    "Aegis"
+   ]
+  },
+  {
+   "cls": "Shaker",
+   "definition": "Powers that act over an area and reshape the battlefield.",
+   "typical_triggers": "Danger from the surroundings rather than a person: disasters, weather, collapse, fire, being lost in a hostile place.",
+   "subtypes": [
+    "Forcefields: barriers and bubbles of any shape",
+    "Terrain: alters ground and structures to hinder movement",
+    "Aura: field around the user that helps allies or weakens foes",
+    "Telekinesis: moves many objects at once",
+    "Hazard: fills space with gas, darkness, fire or blasts",
+    "Nuker: area attack overlapping with Blaster",
+    "Space-warping: bends distances and geometry"
+   ],
+   "example_capes": [
+    "Vista",
+    "Labyrinth",
+    "Kaiser",
+    "Grue",
+    "Skidmark",
+    "Shielder"
+   ]
+  },
+  {
+   "cls": "Brute",
+   "definition": "Powers giving enhanced strength, durability or both; every Brute has some self-protection.",
+   "typical_triggers": "Physical harm suffered directly: beatings, injuries, pain, a body pushed past its limit.",
+   "subtypes": [
+    "Muscle: size and strength, often by reshaping the body",
+    "Armor: tough shell that soaks hits until breached",
+    "Shield: directional or movable defence",
+    "Field: personal forcefield, strong but breakable or brief",
+    "Regen: heals over time",
+    "Negate: all-or-nothing immunity",
+    "Dynamic: redirects or sheds force by skill",
+    "Sunder: defence that weakens attackers",
+    "Transfiguration: revives or transforms when hurt",
+    "Immortal: huge one-off survival that heals slowly"
+   ],
+   "example_capes": [
+    "Lung",
+    "Glory Girl",
+    "Aegis",
+    "Manpower",
+    "Alexandria",
+    "Crawler"
+   ]
+  },
+  {
+   "cls": "Breaker",
+   "definition": "Powers that shift the user into an altered state where different rules apply, sometimes permanently.",
+   "typical_triggers": "Hard-to-define crises where body and mind are inseparably bound up, often involving drugs, illness, poison or contradictory feelings.",
+   "subtypes": [
+    "State-shift: becomes energy, shadow, gas or similar",
+    "Growth: changes scale and how damage applies",
+    "Reset: body snaps back to a stored condition",
+    "Charge: builds power then spends it in a burst",
+    "Conditional form: state only active under set conditions",
+    "Permanent: always in the altered state"
+   ],
+   "example_capes": [
+    "Shadow Stalker",
+    "Fog",
+    "Fenja",
+    "Menja",
+    "Alabaster",
+    "Battery",
+    "Purity"
+   ]
+  },
+  {
+   "cls": "Master",
+   "definition": "Powers that control other beings or create minions.",
+   "typical_triggers": "Loneliness, exile, abandonment, betrayal or the loss of a loved one; one lost bond tends to give one minion, isolation from society gives many.",
+   "subtypes": [
+    "Swarm: commands many small existing creatures",
+    "Beast: controls and enhances animals",
+    "Animator: brings objects to life",
+    "Duplicates: makes copies of the user",
+    "Projections: creates ghostly or solid constructs",
+    "Puppeteer: takes over other people's bodies",
+    "Emotion: sways feelings and loyalties"
+   ],
+   "example_capes": [
+    "Skitter",
+    "Bitch",
+    "Regent",
+    "Crusader",
+    "Parian",
+    "Heartbreaker",
+    "Nilbog"
+   ]
+  },
+  {
+   "cls": "Tinker",
+   "definition": "Powers that let the user design and build technology far beyond current science, usually within a specialty.",
+   "typical_triggers": "Long-running problems with no resolution that finally come to a head; stress stretched over months or years rather than a single moment.",
+   "subtypes": [
+    "Hyperspecialist: one narrow field done extremely well",
+    "Focal: keeps rebuilding one signature item",
+    "Combat: anything, as long as it is for fighting",
+    "Architect: large, slow, built-in-place constructions",
+    "Controller: drones and robots",
+    "Resource: output depends on exotic materials",
+    "Chaos: cannot fully control what gets built",
+    "Mad Scientist: more power at a personal cost",
+    "Magi: self-modification and worn enhancements",
+    "Liberty / Free: bends tinker limits, with strings attached"
+   ],
+   "example_capes": [
+    "Armsmaster",
+    "Kid Win",
+    "Bakuda",
+    "Squealer",
+    "Leet",
+    "Dragon",
+    "Bonesaw"
+   ]
+  },
+  {
+   "cls": "Blaster",
+   "definition": "Powers that attack at range.",
+   "typical_triggers": "A threat seen coming from a distance, or a need to strike something out of reach; fear and anger aimed at a target.",
+   "subtypes": [
+    "Damage: plain high power",
+    "Beam: continuous ray that is hard to dodge",
+    "Barrage: many shots, less accuracy",
+    "Range: better the farther away",
+    "Accuracy: homing or unerring shots",
+    "Effect: weak hit, strong side effect",
+    "Impact: knockback and big blasts",
+    "Ruin: wrecks terrain and structures",
+    "Object: fires through a created object or minion",
+    "Enchantment: imbues ammunition or thrown items"
+   ],
+   "example_capes": [
+    "Miss Militia",
+    "Purity",
+    "Legend",
+    "Laserdream",
+    "Gallant",
+    "Ballistic",
+    "Flechette"
+   ]
+  },
+  {
+   "cls": "Thinker",
+   "definition": "Powers of knowledge, perception, skill or enhanced thought.",
+   "typical_triggers": "Intense mental and emotional strain peaking quickly: crushing revelations, dread, guilt, a crisis where knowing more would have saved someone.",
+   "subtypes": [
+    "Combat: reads and wins fights",
+    "Zone: perceives or exploits surroundings",
+    "Sense: enhanced or new senses",
+    "Proficiency: gains or perfects skills",
+    "Social: reads and manipulates people through information",
+    "Scatterbrain: flexible, re-aimable insight",
+    "Esoteric: abstract or power-related cognition",
+    "Precog: sees futures or odds"
+   ],
+   "example_capes": [
+    "Tattletale",
+    "Coil",
+    "Dinah Alcott",
+    "Victor",
+    "Uber",
+    "Contessa",
+    "Accord"
+   ]
+  },
+  {
+   "cls": "Striker",
+   "definition": "Powers that work by touch or at melee range.",
+   "typical_triggers": "A single threat right in the person's face: an attacker or object at arm's length.",
+   "subtypes": [
+    "Empower: charges a weapon or object with a special property",
+    "State-change: touch imposes a condition on the target",
+    "Weapon-maker: creates melee weapons from energy",
+    "Enhanced strikes: blows carry an added effect",
+    "Short-range kinesis: fire or force only at arm's reach",
+    "Biological touch: alters living tissue"
+   ],
+   "example_capes": [
+    "Clockblocker",
+    "Panacea",
+    "Faultline",
+    "Brandish",
+    "Assault",
+    "Newter"
+   ]
+  },
+  {
+   "cls": "Changer",
+   "definition": "Powers that alter the user's own body or appearance.",
+   "typical_triggers": "Struggles over identity, body image or suffocating social expectations.",
+   "subtypes": [
+    "Natural weapons: grows claws, blades, armour",
+    "Streamline: reshapes for movement or squeezing through gaps",
+    "Shifter: changes looks within human range",
+    "Self-biokinesis: remodels and heals own flesh",
+    "Accretion: builds a larger body from outside material",
+    "Monstrous form: full transformation"
+   ],
+   "example_capes": [
+    "Hookwolf",
+    "Night",
+    "Mush",
+    "Browbeat",
+    "Genesis",
+    "Lung"
+   ]
+  },
+  {
+   "cls": "Trump",
+   "definition": "Powers that act on powers: granting, copying, boosting, weakening or removing them, or choosing between many. Only a few percent of parahumans qualify.",
+   "typical_triggers": "A trigger in which other people's powers are central to the crisis.",
+   "subtypes": [
+    "Null: weakens or switches off powers",
+    "Grant: bestows or shares powers",
+    "Steal / copy: takes or mimics powers",
+    "Menu: picks from several weaker options",
+    "Scramble: disrupts or alters how powers behave",
+    "Boost: strengthens other powers",
+    "Cycle: rotates through unpredictable variants",
+    "Infinite: near-unlimited selection"
+   ],
+   "example_capes": [
+    "Othala",
+    "Dauntless",
+    "Eidolon",
+    "Hatchet Face",
+    "Glaistig Uaine",
+    "Grue (after second trigger)"
+   ]
+  },
+  {
+   "cls": "Stranger",
+   "definition": "Powers of stealth, deception and infiltration.",
+   "typical_triggers": "Threats to mental or social safety, especially unwanted attention or pressure from a person, a crowd or the world.",
+   "subtypes": [
+    "Invisibility: unseen or camouflaged",
+    "Perception filter: noticed but ignored or forgotten",
+    "Sensory denial: blinds or deafens others",
+    "Impersonation: copies appearance and voice",
+    "Hallucination: plants false perceptions",
+    "Unobserved bonus: stronger when nobody is watching",
+    "Ambush: enables surprise attacks"
+   ],
+   "example_capes": [
+    "Imp",
+    "Shadow Stalker",
+    "Night",
+    "Grue",
+    "Nice Guy",
+    "August Prince"
+   ]
+  }
+ ],
+ "power_examples": [
+  {
+   "cape": "Scion",
+   "cls": "Blaster",
+   "rating": 15,
+   "summary": "Golden man with flight, near-total invulnerability and beams that erase anything, including other powers' effects.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Eidolon",
+   "cls": "Trump",
+   "rating": 12,
+   "summary": "Holds three or four powers of his choice at once, swapping them as the situation demands.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Alexandria",
+   "cls": "Brute",
+   "rating": 10,
+   "summary": "Unbreakable time-locked body with flight, vast strength and a perfect-memory accelerated mind.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Legend",
+   "cls": "Blaster",
+   "rating": 10,
+   "summary": "Flies at extreme speed while firing lasers that bend, split and carry effects such as heat or cold.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Contessa",
+   "cls": "Thinker",
+   "rating": 12,
+   "summary": "Asks how to achieve a goal and is shown every step needed, then carries them out flawlessly.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Glaistig Uaine",
+   "cls": "Trump",
+   "rating": 12,
+   "summary": "Harvests the powers of the dead and calls up three of them at a time as ghostly servants.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Siberian",
+   "cls": "Master",
+   "rating": 10,
+   "summary": "Projects an untouchable striped woman who ignores all physics and tears through anything; the frail creator hides nearby.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Nilbog",
+   "cls": "Master",
+   "rating": 10,
+   "summary": "Reshapes biomass into loyal goblin-like creatures that he can recycle and rebuild endlessly.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Sleeper",
+   "cls": "Shaker",
+   "rating": 12,
+   "summary": "A threat so severe that whole regions are simply abandoned to him; details unknown.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Ash Beast",
+   "cls": "Breaker",
+   "rating": 10,
+   "summary": "Walks at the centre of a continuous matter-to-energy explosion that never stops.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Gray Boy",
+   "cls": "Shaker",
+   "rating": 10,
+   "summary": "Traps victims in small bubbles of time that loop forever, and resets himself when harmed.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Dragon",
+   "cls": "Tinker",
+   "rating": 9,
+   "summary": "Understands and improves on any other tinker's work, fielding many remote-piloted war machines.",
+   "tier": "high"
+  },
+  {
+   "cape": "Narwhal",
+   "cls": "Shaker",
+   "rating": 9,
+   "summary": "Makes razor-thin forcefields in any shape, even inside objects, and wears them as armour.",
+   "tier": "high"
+  },
+  {
+   "cape": "Chevalier",
+   "cls": "Striker",
+   "rating": 8,
+   "summary": "Merges objects together so the result keeps the best traits of each, such as a cannon-sword light as a knife; also sees power-shadows.",
+   "tier": "high"
+  },
+  {
+   "cape": "Myrddin",
+   "cls": "Shaker",
+   "rating": 8,
+   "summary": "Draws on several pocket dimensions to launch blasts, store things and banish targets, styled as wizardry.",
+   "tier": "high"
+  },
+  {
+   "cape": "Jack Slash",
+   "cls": "Blaster",
+   "rating": 5,
+   "summary": "Any blade edge he holds cuts at any distance along his swing; a hidden sense lets him read other parahumans.",
+   "tier": "high"
+  },
+  {
+   "cape": "Bonesaw",
+   "cls": "Tinker",
+   "rating": 8,
+   "summary": "Biological tinker: surgery, plagues, grafted cyborg bodyguards and implants that keep people alive through anything.",
+   "tier": "high"
+  },
+  {
+   "cape": "Crawler",
+   "cls": "Brute",
+   "rating": 9,
+   "summary": "Regenerates and permanently adapts to whatever injures him, becoming a huge armoured beast that spits acid.",
+   "tier": "high"
+  },
+  {
+   "cape": "Shatterbird",
+   "cls": "Shaker",
+   "rating": 9,
+   "summary": "Controls glass and silicon; her opening scream shatters every pane and screen across a city.",
+   "tier": "high"
+  },
+  {
+   "cape": "Mannequin",
+   "cls": "Tinker",
+   "rating": 7,
+   "summary": "Sealed his organs inside a jointed ceramic body with blades and chains; specialises in closed life-support systems.",
+   "tier": "high"
+  },
+  {
+   "cape": "Burnscar",
+   "cls": "Shaker",
+   "rating": 7,
+   "summary": "Creates and shapes fire and teleports between flames; the more fire around, the less restraint she has.",
+   "tier": "high"
+  },
+  {
+   "cape": "Cherish",
+   "cls": "Master",
+   "rating": 7,
+   "summary": "Senses emotions across a whole city and can force feelings on people at range.",
+   "tier": "high"
+  },
+  {
+   "cape": "Hatchet Face",
+   "cls": "Trump",
+   "rating": 7,
+   "summary": "Strong, tough killer who shuts off the powers of anyone near him.",
+   "tier": "high"
+  },
+  {
+   "cape": "Heartbreaker",
+   "cls": "Master",
+   "rating": 8,
+   "summary": "Reaches into people's emotions and makes them permanently love or fear him.",
+   "tier": "high"
+  },
+  {
+   "cape": "Marquis",
+   "cls": "Shaker",
+   "rating": 7,
+   "summary": "Shapes and grows bone, his own or any exposed bone nearby, into weapons, armour and structures.",
+   "tier": "high"
+  },
+  {
+   "cape": "Butcher",
+   "cls": "Brute",
+   "rating": 9,
+   "summary": "Strength, toughness, teleport, pain infliction and more, inherited along with the minds of every previous Butcher by whoever kills the current one.",
+   "tier": "high"
+  },
+  {
+   "cape": "Accord",
+   "cls": "Thinker",
+   "rating": 7,
+   "summary": "Becomes smarter the more complex the problem, producing flawless plans for anything from a murder to ending world hunger.",
+   "tier": "high"
+  },
+  {
+   "cape": "Number Man",
+   "cls": "Thinker",
+   "rating": 8,
+   "summary": "Sees the mathematics behind everything, giving perfect aim, movement and financial mastery.",
+   "tier": "high"
+  },
+  {
+   "cape": "Flechette",
+   "cls": "Striker",
+   "rating": 6,
+   "summary": "Charges objects so they pierce anything and ignore gravity and friction, with a perfect sense of timing and angles.",
+   "tier": "high"
+  },
+  {
+   "cape": "Weld",
+   "cls": "Brute",
+   "rating": 6,
+   "summary": "Living metal body that needs no food or air and absorbs any metal it touches, sometimes by accident.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Sundancer",
+   "cls": "Blaster",
+   "rating": 8,
+   "summary": "Summons a small sun she can move and enlarge.",
+   "tier": "high"
+  },
+  {
+   "cape": "Noelle",
+   "cls": "Master",
+   "rating": 10,
+   "summary": "Monstrous lower body that absorbs people and spits out twisted, hostile clones with variant powers.",
+   "tier": "overpowered"
+  },
+  {
+   "cape": "Bastion",
+   "cls": "Shaker",
+   "rating": 7,
+   "summary": "Builds varied forcefields and deflecting walls.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Mouse Protector",
+   "cls": "Mover",
+   "rating": 4,
+   "summary": "Tags a person or object by touch and can later teleport to it; fights with sword, shield and bad puns.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Ravager",
+   "cls": "Striker",
+   "rating": 5,
+   "summary": "Wounds she inflicts fester and refuse to heal.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Strider",
+   "cls": "Mover",
+   "rating": 6,
+   "summary": "Teleports large groups across great distances.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Cache",
+   "cls": "Shaker",
+   "rating": 5,
+   "summary": "Shunts objects into an extradimensional pocket and brings them back later.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Ursa Aurora",
+   "cls": "Master",
+   "rating": 5,
+   "summary": "Creates living forcefields shaped like bears.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Prism",
+   "cls": "Master",
+   "rating": 5,
+   "summary": "Divides into three copies and recombines them, gaining strength when they merge.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Raymancer",
+   "cls": "Blaster",
+   "rating": 6,
+   "summary": "Makes countless small light blasts and focuses them into one devastating shot.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Tecton",
+   "cls": "Tinker",
+   "rating": 5,
+   "summary": "Seismic and architectural tinker in power armour whose gauntlets crack ground and drop buildings.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Wanton",
+   "cls": "Breaker",
+   "rating": 5,
+   "summary": "Becomes a localised whirlwind of telekinetic force.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Grace",
+   "cls": "Striker",
+   "rating": 4,
+   "summary": "Makes chosen body parts invulnerable and hits with boosted force, with enhanced agility.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Gully",
+   "cls": "Shaker",
+   "rating": 6,
+   "summary": "Moves and reshapes earth and rock.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Hunch",
+   "cls": "Thinker",
+   "rating": 3,
+   "summary": "Gets vague, not always reliable feelings about what is about to happen.",
+   "tier": "low"
+  },
+  {
+   "cape": "Scapegoat",
+   "cls": "Striker",
+   "rating": 4,
+   "summary": "Takes others' injuries onto himself temporarily and can pass them to someone he touches.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Shamrock",
+   "cls": "Thinker",
+   "rating": 4,
+   "summary": "Tiny telekinetic nudges guided by subconscious foresight add up to uncanny luck.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Matryoshka",
+   "cls": "Changer",
+   "rating": 5,
+   "summary": "Unfolds into ribbons that wrap around people and fold them inside her, taking on their traits.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Garotte",
+   "cls": "Changer",
+   "rating": 7,
+   "summary": "A face on a mass of thin tendrils that reflexively strangle anything they touch.",
+   "tier": "high"
+  },
+  {
+   "cape": "Blasto",
+   "cls": "Tinker",
+   "rating": 6,
+   "summary": "Grows engineered plant and plant-animal hybrid creatures.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Barker",
+   "cls": "Blaster",
+   "rating": 3,
+   "summary": "Sounds he makes turn into gas with varied effects, usually concussive.",
+   "tier": "low"
+  },
+  {
+   "cape": "Biter",
+   "cls": "Changer",
+   "rating": 3,
+   "summary": "Stretches and enlarges parts of his body, most often a huge trap-like jaw.",
+   "tier": "low"
+  },
+  {
+   "cape": "Imp",
+   "cls": "Stranger",
+   "rating": 5,
+   "summary": "People cannot notice or remember her while her power is on.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Scrub",
+   "cls": "Blaster",
+   "rating": 5,
+   "summary": "Uncontrolled flashes around him annihilate chunks of matter at random spots.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Trickster",
+   "cls": "Mover",
+   "rating": 5,
+   "summary": "Swaps places between two objects or people of similar mass in his sight.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Perdition",
+   "cls": "Mover",
+   "rating": 5,
+   "summary": "Rewinds a single target a few seconds back in time.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Oliver",
+   "cls": "Changer",
+   "rating": 1,
+   "summary": "Body slowly shifts to become more attractive to whoever is around; no combat use.",
+   "tier": "trash"
+  },
+  {
+   "cape": "Canary",
+   "cls": "Master",
+   "rating": 8,
+   "summary": "Singing voice makes listeners extremely suggestible; has feathers in her hair.",
+   "tier": "high"
+  },
+  {
+   "cape": "Lizardtail",
+   "cls": "Shaker",
+   "rating": 3,
+   "summary": "Gives off an aura that slowly heals and steadies people around him.",
+   "tier": "low"
+  },
+  {
+   "cape": "Rime",
+   "cls": "Blaster",
+   "rating": 6,
+   "summary": "Fires blasts that leave growing ice structures; flies.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Exalt",
+   "cls": "Shaker",
+   "rating": 6,
+   "summary": "Aerokinetic and telekinetic who charges up for bigger releases.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Revel",
+   "cls": "Blaster",
+   "rating": 7,
+   "summary": "Lantern absorbs energy attacks and releases them as homing orbs.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Golem",
+   "cls": "Shaker",
+   "rating": 6,
+   "summary": "Pushes a limb into a surface and a giant copy made of that material emerges from a matching surface nearby.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Cuff",
+   "cls": "Striker",
+   "rating": 4,
+   "summary": "Bends and shapes metal by touch, with strength when using it.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Foil",
+   "cls": "Striker",
+   "rating": 6,
+   "summary": "Later name of Flechette; same all-piercing charge.",
+   "tier": "high"
+  },
+  {
+   "cape": "Annex",
+   "cls": "Breaker",
+   "rating": 4,
+   "summary": "Merges into solid surfaces and reshapes them from inside.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Kudzu",
+   "cls": "Master",
+   "rating": 4,
+   "summary": "Splits into several weaker copies of herself.",
+   "tier": "low"
+  },
+  {
+   "cape": "Whirlygig",
+   "cls": "Shaker",
+   "rating": 3,
+   "summary": "Orbits nearby loose objects around herself.",
+   "tier": "low"
+  },
+  {
+   "cape": "Trainwreck",
+   "cls": "Tinker",
+   "rating": 3,
+   "summary": "Crude steam armour around a mostly shapeless body.",
+   "tier": "low"
+  },
+  {
+   "cape": "Leet",
+   "cls": "Tinker",
+   "rating": 2,
+   "summary": "Can build anything once; repeats tend to explode.",
+   "tier": "low"
+  },
+  {
+   "cape": "Skidmark",
+   "cls": "Shaker",
+   "rating": 2,
+   "summary": "Lays strips on the ground that shove whatever crosses them.",
+   "tier": "low"
+  },
+  {
+   "cape": "Chubster",
+   "cls": "Brute",
+   "rating": 3,
+   "summary": "Fat man who is very hard to move or injure.",
+   "tier": "low"
+  },
+  {
+   "cape": "Über",
+   "cls": "Thinker",
+   "rating": 3,
+   "summary": "Temporary mastery of whichever skill he focuses on.",
+   "tier": "low"
+  },
+  {
+   "cape": "Nice Guy",
+   "cls": "Stranger",
+   "rating": 5,
+   "summary": "Everyone near him believes he is harmless and friendly no matter what he does.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Hemorrhagia",
+   "cls": "Striker",
+   "rating": 5,
+   "summary": "Controls her own blood, hardening it into blades and scabs, and heals from it.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Animos",
+   "cls": "Changer",
+   "rating": 5,
+   "summary": "Turns into a beast whose roar briefly suppresses powers.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Spree",
+   "cls": "Master",
+   "rating": 5,
+   "summary": "Spawns streams of short-lived, increasingly stupid clones of himself.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Vex",
+   "cls": "Shaker",
+   "rating": 4,
+   "summary": "Fills the air with tiny sharp forcefields.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Damsel of Distress",
+   "cls": "Blaster",
+   "rating": 6,
+   "summary": "Hands release uncontrollable blasts that warp and annihilate space, with fierce recoil.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Citrine",
+   "cls": "Shaker",
+   "rating": 6,
+   "summary": "Tunes a yellow-lit area to alter one physical or power-related property inside it.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Othello",
+   "cls": "Stranger",
+   "rating": 5,
+   "summary": "Has an invisible mirror self that only he perceives and that can act on the world.",
+   "tier": "mid"
+  },
+  {
+   "cape": "Grumman",
+   "cls": "Blaster",
+   "rating": 2,
+   "summary": "Minor cape with a weak shockwave push.",
+   "tier": "trash"
+  },
+  {
+   "cape": "Fume Hood",
+   "cls": "Blaster",
+   "rating": 4,
+   "summary": "Throws orbs that burst into noxious gas.",
+   "tier": "low"
+  },
+  {
+   "cape": "Tribute",
+   "cls": "Trump",
+   "rating": 3,
+   "summary": "Lends small boosts of strength and toughness to several allies at once.",
+   "tier": "low"
+  }
+ ],
+ "trigger_events": {
+  "summary": "Powers appear in a trigger event, usually the worst moment of a person's life, when fear, pain or despair push them past their limit; a brief vision of vast alien beings is seen and forgotten. The shape of the crisis shapes the power: mental and emotional strain leans toward Thinker, Tinker, Master and Shaker, while physical violence leans toward bodily powers. Relatives and wards of capes trigger more easily and inherit related powers; a second trigger under similar circumstances can strip a power's limits at heavy cost; and several people triggering together form a cluster of 'grab-bag' capes with shared lesser powers. Powers can also be bought as Cauldron vials, which risk deformity (Case 53s).",
+  "class_by_circumstance": [
+   {
+    "circumstance": "Desperate to get away from a pursuer, a trap or a confining situation",
+    "cls": "Mover"
+   },
+   {
+    "circumstance": "Endangered by the environment itself: fire, flood, collapse, storm, a hostile place",
+    "cls": "Shaker"
+   },
+   {
+    "circumstance": "Suffering direct bodily harm: a beating, serious injury or prolonged pain",
+    "cls": "Brute"
+   },
+   {
+    "circumstance": "A crisis where physical and mental distress are fused, often with drugs, illness or contradictory feelings",
+    "cls": "Breaker"
+   },
+   {
+    "circumstance": "Isolation, abandonment, betrayal or the loss of someone loved",
+    "cls": "Master"
+   },
+   {
+    "circumstance": "A problem dragging on for months or years with no solution, finally reaching breaking point",
+    "cls": "Tinker"
+   },
+   {
+    "circumstance": "A threat approaching from a distance or just out of reach",
+    "cls": "Blaster"
+   },
+   {
+    "circumstance": "A sudden mental crisis: a crushing revelation, guilt, or needing to know something in time",
+    "cls": "Thinker"
+   },
+   {
+    "circumstance": "A single attacker or danger right at arm's length",
+    "cls": "Striker"
+   },
+   {
+    "circumstance": "Anguish over identity, appearance or roles other people impose",
+    "cls": "Changer"
+   },
+   {
+    "circumstance": "A crisis in which someone else's powers are the central factor",
+    "cls": "Trump"
+   },
+   {
+    "circumstance": "Unwanted attention, stalking, social pressure or scrutiny one cannot escape",
+    "cls": "Stranger"
+   },
+   {
+    "circumstance": "Hounded by many small harms from several sources with no moment to rest",
+    "cls": "Mover"
+   },
+   {
+    "circumstance": "Feeling cut off from all of society rather than one person",
+    "cls": "Master"
+   },
+   {
+    "circumstance": "Fighting a large institution or system over a long time",
+    "cls": "Tinker"
+   },
+   {
+    "circumstance": "Harm that builds slowly over time, or self-harm",
+    "cls": "Brute"
+   },
+   {
+    "circumstance": "Out of one's depth and helpless for lack of competence",
+    "cls": "Thinker"
+   },
+   {
+    "circumstance": "Several people pushed to the brink in the same incident",
+    "cls": "Cluster (grab-bag of mixed classes)"
+   },
+   {
+    "circumstance": "Child or close associate of a parahuman facing a comparatively mild crisis",
+    "cls": "Inherited variant of the relative's class"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "date": "2011-01-03",
+   "event": "Around the start of January Taylor Hebert is shoved into her filth-filled locker at Winslow, triggers, and spends a week under hospital observation.",
+   "verified": true
+  },
+  {
+   "date": "2011-02-24",
+   "event": "The Simurgh attacks Canberra, Australia, which is then quarantined.",
+   "verified": true
+  },
+  {
+   "date": "2011-03-10",
+   "event": "In March the Undersiders rob the Ruby Dreams casino, and Browbeat triggers.",
+   "verified": true
+  },
+  {
+   "date": "2011-03-23",
+   "event": "Lung recruits the bomb tinker Bakuda into the ABB.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-08",
+   "event": "After a bad day of bullying, Taylor decides to stop preparing and go out in costume soon.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-10",
+   "event": "Late on Sunday night Taylor goes out in costume for the first time, overhears Lung planning to shoot 'kids', and attacks him with her swarm in the Docks.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-11",
+   "event": "In the early hours the Undersiders arrive and drive off Lung; Armsmaster takes the credit for the capture; later that day Taylor meets the Undersiders in person and accepts their offer to join.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-11",
+   "event": "Bakuda begins abducting civilians and implanting bombs in their heads to swell ABB ranks.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-12",
+   "event": "The Undersiders plan the bank robbery at the loft.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-13",
+   "event": "Taylor meets Armsmaster again and fails to reach an understanding with him.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-14",
+   "event": "The Undersiders rob Brockton Bay Central Bank at midday, fighting the Wards and Glory Girl, with Panacea among the hostages.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-14",
+   "event": "Twelve-year-old precog Dinah Alcott is kidnapped on Coil's orders while the heroes are busy at the bank.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-15",
+   "event": "Purity rejoins the Empire, which brings in Night, Fog, Victor, Othala, Rune and Krieg at once.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-15",
+   "event": "Bakuda ambushes the Undersiders at the storage facility; her citywide bombing campaign begins and Oni Lee uses the chaos to break Lung out of custody.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-18",
+   "event": "Sometime between 14 and 22 April the Travelers arrive and are hired by Coil.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-19",
+   "event": "Sometime between 15 and 22 April Bitch attacks an Empire dog-fighting ring.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-23",
+   "event": "The city's villains meet at Somer's Rock and agree a truce and alliance against the ABB.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-24",
+   "event": "Taylor slaps Emma at the mall after being taunted about her mother.",
+   "verified": true
+  },
+  {
+   "date": "2011-04-25",
+   "event": "The meeting about the bullying is held at Winslow and goes nowhere; that night the allied villains make their first raid on the ABB.",
+   "verified": true
+  },
+  {
+   "date": "2011-05-01",
+   "event": "Around the turn of the month Bakuda is beaten and arrested after threatening the city with a superbomb, and Lung is captured again after a fight involving the Undersiders; the ABB collapses.",
+   "verified": false
+  },
+  {
+   "date": "2011-05-05",
+   "event": "The Undersiders crash the PRT fundraiser at the Forsberg Gallery to embarrass the heroes; afterwards Coil reveals himself as their employer.",
+   "verified": true
+  },
+  {
+   "date": "2011-05-06",
+   "event": "Around this date Coil leaks the civilian identities of the Empire's capes to the media.",
+   "verified": true
+  },
+  {
+   "date": "2011-05-07",
+   "event": "Over the following days Purity, whose daughter is taken into care after the leak, rampages through the city while the Empire hunts the Undersiders, whom it blames.",
+   "verified": false
+  },
+  {
+   "date": "2011-05-10",
+   "event": "Around this time Kaiser and Coil hold talks while the Undersiders fight Night, Fog and Purity's group and Aster is returned to her mother.",
+   "verified": false
+  },
+  {
+   "date": "2011-05-15",
+   "event": "Leviathan attacks Brockton Bay; dozens of capes die including Kaiser, Fenja, Velocity, Aegis, Gallant, Manpower and Shielder, the rig is wrecked and much of Downtown floods.",
+   "verified": true
+  },
+  {
+   "date": "2011-05-16",
+   "event": "In the aftermath Taylor wakes in a field hospital, learns Armsmaster broke the truce, and splits from the Undersiders for a time.",
+   "verified": false
+  },
+  {
+   "date": "2011-05-20",
+   "event": "In the ruined city the Merchants swell with new recruits and seize ground in the Docks, while the Empire splits into Hookwolf's Fenrir's Chosen and Purity's Pure.",
+   "verified": false
+  },
+  {
+   "date": "2011-05-27",
+   "event": "Around this date Taylor talks with Lisa about her future, leading to her return and to Coil's plan for the Undersiders and Travelers to hold territories.",
+   "verified": true
+  }
+ ],
+ "misc": {
+  "population": "About 350,000 civilians at the time of Leviathan's attack. The wiki estimates the cape population could be near 120 given the city's top-ten ranking, of whom roughly half appear in the story; the wiki's start-of-story roster names about 55 plus 'perhaps eight others'.",
+  "geography": "Coastal city in the north-eastern United States, north of Boston; state never named. Atlantic to the east, hills and mountains on the other sides, especially west. Built over an underground lake or aquifer. Mild climate for the region.",
+  "layout_summary": "North end: Docks, Trainyard, Boat Graveyard, with the Boardwalk along the eastern waterfront and the Market further north. Centre and south: Downtown and the Towers, with wealthy neighbourhoods to the south-west. West: Captain's Hill and the hills. In the bay: the Protectorate rig. Lord Street runs the length of the city along the bay.",
+  "protectorate_hq": "A refitted oil rig floating in the bay, protected by a forcefield bubble and missile defences that have never been needed as of early 2011, and reached over a hard-light bridge. It is separate from the PRT building Downtown, which houses the Wards.",
+  "prt": "The Parahuman Response Team, department East-North-East, is the unpowered federal agency that oversees local heroes. Troopers carry containment foam sprayers and work from armoured vans. Director: Emily Piggot.",
+  "unwritten_rules": [
+   "Do not go after a cape's civilian identity or family.",
+   "No violence or power use at an agreed neutral meeting.",
+   "Avoid killing; keep fights non-lethal where possible.",
+   "No mass attacks on civilians.",
+   "No enslaving people with mind control.",
+   "No sexual violence.",
+   "Guns are frowned on because they escalate; melee and archaic weapons are preferred.",
+   "If someone breaks the rules badly, everyone else may unite against them; repeat offenders risk the Birdcage or a kill order."
+  ],
+  "endbringer_truce": "When an Endbringer or other S-class threat attacks, heroes and villains fight side by side. Nobody attacks a volunteer, exploits the event for gain, or sets others up to die, and medical care is given to all. Volunteers wear armbands that track position and announce casualties (armband detail from memory).",
+  "endbringers": "Behemoth, Leviathan and the Simurgh attack a city somewhere in the world every few months. Leviathan, a thirty-foot water-controlling giant, hits Brockton Bay on 15 May 2011, aiming to collapse the city into its aquifer.",
+  "shelter_system": "Public Endbringer shelters are spread through the city; air-raid style sirens tell civilians to go underground while capes gather to defend.",
+  "economy": "Founded as a colonial trading port. When import and export work dried up, the wealthy shifted into technology and banking Downtown while thousands of dock and warehouse workers lost their jobs. A protest blockade left ships rotting in the harbour (the Boat Graveyard) and made the port worse. Cheap muscle and easy money drew villains in the late 1990s.",
+  "ferry": "A ferry once ran across the bay between a north station in the Docks and a south station by Downtown. It has been closed for years, officially over cost and unofficially to keep Docks residents away from the nicer districts; Danny Hebert lobbies to reopen it (the reasons are from memory).",
+  "storage_and_containers": "A short-lived boom in people living in storage lockers and shipping containers was banned after crime and disease spread, pushing the homeless into empty warehouses.",
+  "gang_balance_april_2011": "The Empire has the most capes, the ABB matches it through Lung's personal power, the Merchants are small-time, Coil works unseen, and the heroes are outnumbered. Lung's arrest on 11 April upsets the balance.",
+  "history_notes": "Earlier local powers included Allfather (Empire founder), his daughter Iron Rain, the bone-controlling crime lord Marquis (sent to the Birdcage about a decade earlier) and the Teeth, who were driven out. New Wave began as the Brockton Bay Brigade; a member, Fleur, was murdered in her civilian identity after the team unmasked.",
+  "parahumans_online": "PHO is the popular web forum and wiki where residents follow cape news; several characters post there.",
+  "schools": "Winslow (rough public school near the Docks), Arcadia (elite public school Downtown, attended by Wards), Immaculata (private Christian school in the south), Clarendon (little described).",
+  "case_53": "People who appear with monstrous bodies, no memories and an omega-like tattoo. Newter, Gregor the Snail and Trainwreck are local examples.",
+  "undersiders_pay": "Each Undersider receives about 2,000 dollars a month from their backer plus a share of each job.",
+  "market_stalls": "Stalls at the Lord Street Market rent for roughly 50 to 250 dollars.",
+  "verification_note": "'verified': true means the entry's identity, roster membership, classification or dated fact was checked against wikitext fetched from worm.fandom.com (via its API) or the author's cast page on 2026-10-06. Ages given as single numbers, personality keywords, hangouts, 'lethal', adjacency lists and any rating the wiki does not state are estimates. Subtype labels for Mover, Brute, Tinker, Blaster, Thinker and Trump come from the author's tabletop drafts, which the wiki marks as non-canon."
+ }
+}

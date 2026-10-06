@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brockton Bay</title>
+<style>
+  :root { --bg:#0f1317; --panel:#161c22; --line:#26303a; --text:#cfd6dc; --dim:#6f7d8a; --gold:#e0b354;
+          --red:#e2645f; --green:#7fc37a; --cyan:#62b8d6; --magenta:#c78be0; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bg); color: var(--text); font: 15px/1.5 ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+         display: flex; flex-direction: column; }
+  #hud { display: flex; flex-wrap: wrap; gap: 4px 18px; padding: 8px 16px; background: var(--panel);
+         border-bottom: 1px solid var(--line); font-size: 13px; color: var(--dim); }
+  #hud b { color: var(--text); font-weight: 600; }
+  #hud .place { color: var(--gold); }
+  .meter { display: inline-block; width: 70px; height: 7px; background: var(--line); border-radius: 4px;
+           vertical-align: middle; overflow: hidden; }
+  .meter i { display: block; height: 100%; }
+  #log { flex: 1; overflow-y: auto; padding: 14px 16px; white-space: pre-wrap; word-wrap: break-word; }
+  #log .mine { color: var(--dim); }
+  #log div { max-width: 100ch; }
+  #bar { display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 16px 0; }
+  #bar button { background: none; border: 1px solid var(--line); color: var(--dim); border-radius: 4px;
+                padding: 3px 9px; font: inherit; font-size: 12px; cursor: pointer; }
+  #bar button:hover { color: var(--text); border-color: var(--dim); }
+  form { display: flex; padding: 8px 16px 14px; gap: 8px; }
+  input { flex: 1; background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 4px;
+          padding: 9px 12px; font: inherit; outline: none; min-width: 0; }
+  input:focus { border-color: var(--cyan); }
+  .fight #hud { border-bottom-color: var(--red); }
+</style>
+</head>
+<body>
+<div id="hud">Brockton Bay</div>
+<div id="log"></div>
+<div id="bar"></div>
+<form id="form"><input id="input" autocomplete="off" autofocus placeholder="type a command - 'help' lists them"></form>
+<script>
+  const COLORS = { red:'var(--red)', green:'var(--green)', cyan:'var(--cyan)', gold:'var(--gold)',
+                   gray:'var(--dim)', magenta:'var(--magenta)', yellow:'var(--gold)', blue:'var(--cyan)' };
+  const QUICK = ['look', 'status', 'inv', 'tasks', 'jobs', 'prices', 'market', 'news', 'power', 'help'];
+  const log = document.getElementById('log'), input = document.getElementById('input'), hud = document.getElementById('hud');
+  const history = []; let cursor = 0, secret = false;
+
+  function render(text) {
+    // the server sends <color color=NAME>..</color>; anything else is treated as plain text
+    let out = '', rest = text;
+    const tag = /<color color=([#\w]+)>|<\/color>/g;
+    let last = 0, m;
+    while ((m = tag.exec(rest)) !== null) {
+      out += escape(rest.slice(last, m.index));
+      out += m[1] ? `<span style="color:${COLORS[m[1]] || m[1]}">` : '</span>';
+      last = tag.lastIndex;
+    }
+    return out + escape(rest.slice(last));
+  }
+  function escape(s) { return s.replace(/&(?!lt;|gt;|amp;)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+  function add(html, cls) {
+    const el = document.createElement('div');
+    if (cls) el.className = cls;
+    el.innerHTML = html;
+    log.appendChild(el);
+    while (log.children.length > 600) log.removeChild(log.firstChild);
+    log.scrollTop = log.scrollHeight;
+  }
+  function meter(value, max, color) {
+    const pct = Math.max(0, Math.min(100, 100 * value / max));
+    return `<span class="meter"><i style="width:${pct}%;background:${color}"></i></span>`;
+  }
+  function showHud(d) {
+    document.body.classList.toggle('fight', d.fight);
+    hud.innerHTML = `<span><b>${escape(d.name)}</b></span>` +
+      `<span class="place">${escape(d.place)}</span>` +
+      `<span>${d.night ? '☾' : '☀'} ${escape(d.time)}</span>` +
+      `<span>health ${meter(d.hp, d.maxhp, 'var(--red)')} <b>${d.hp}</b>/${d.maxhp}</span>` +
+      `<span>hunger ${meter(d.hunger, 100, 'var(--gold)')}</span>` +
+      `<span>$<b>${d.money}</b></span>` + `<span>${escape(d.job)}</span>` +
+      (d.power ? `<span style="color:var(--magenta)">${escape(d.power)}</span>` : '');
+  }
+
+  const ws = new WebSocket(`ws://${location.hostname || 'localhost'}:1337`);
+  ws.onopen = () => add('<span style="color:var(--dim)">Connected.</span>');
+  ws.onclose = () => add('<span style="color:var(--red)">Disconnected. Reload the page to return to the city.</span>');
+  ws.onmessage = (event) => {
+    const text = String(event.data);
+    if (text.startsWith('@@hud ')) { try { showHud(JSON.parse(text.slice(6))); } catch (e) {} return; }
+    secret = /Password\?|Choose a password/.test(text);
+    input.type = secret ? 'password' : 'text';
+    add(render(text));
+  };
+  function send(text) {
+    if (ws.readyState !== 1 || !text) return;
+    ws.send(text);
+    if (!secret) { add('&gt; ' + escape(text), 'mine'); history.push(text); cursor = history.length; }
+  }
+  document.getElementById('form').addEventListener('submit', (e) => { e.preventDefault(); send(input.value.trim()); input.value = ''; });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowUp' && cursor > 0) { input.value = history[--cursor]; e.preventDefault(); }
+    if (e.key === 'ArrowDown') { input.value = history[++cursor] || ''; cursor = Math.min(cursor, history.length); e.preventDefault(); }
+  });
+  for (const word of QUICK) {
+    const b = document.createElement('button'); b.textContent = word; b.type = 'button';
+    b.onclick = () => { send(word); input.focus(); };
+    document.getElementById('bar').appendChild(b);
+  }
+</script>
+</body>
+</html>
